@@ -1,0 +1,18 @@
+# Sanal ortam
+bert-env/
+
+# Python cache ve loglar
+__pycache__/
+*.pyc
+*.log
+
+# Eğitim çıktıları
+results/
+checkpoints/
+*.pt
+*.bin
+*.ckpt
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
