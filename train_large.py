@@ -6,7 +6,8 @@ import torch, evaluate, numpy as np
 dataset = load_dataset("csv", data_files={"train": "data.csv", "test": "data.csv"})
 
 # 2️⃣ Tokenizer (BERT Large)
-model_name = "bert-base-multilingual-cased"
+model_name = "XLM-RoBERTa-Large"
+
 
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
@@ -55,7 +56,10 @@ args = TrainingArguments(
     greater_is_better=True,
     logging_steps=10,
     fp16=True,
-    report_to="none"
+
+    # 🌈 TensorBoard için
+    logging_dir="./logs",
+    report_to=["tensorboard"]
 )
 
 collator = DataCollatorWithPadding(tokenizer=tokenizer)
