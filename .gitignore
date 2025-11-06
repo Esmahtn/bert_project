@@ -16,3 +16,5 @@ checkpoints/
 # Sistem dosyaları
 .DS_Store
 Thumbs.db
+bert-large-risk-model/
+results/
