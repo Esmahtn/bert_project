@@ -1,20 +1,31 @@
-# Sanal ortam
+# Sanal Ortam (KESİNLİKLE İHMAL ETMEYİN)
 bert-env/
 
-# Python cache ve loglar
+# Python Cache ve Çalışma Günlükleri
 __pycache__/
 *.pyc
 *.log
+logs/
+logs-v2/
+*.csv.lock
 
-# Eğitim çıktıları
+# HUGGING FACE EĞİTİM ÇIKTILARI (BÜYÜK BOYUTLU TEMİZLİK)
+# Bu klasörler, en iyi modeli içermez, sadece ara kontrol noktalarıdır.
 results/
+results-legal-bert/
+results-legal-bert-v2/
 checkpoints/
+runs/
 *.pt
 *.bin
 *.ckpt
+*.safetensors
+*.index
 
-# Sistem dosyaları
+# Hugging Face Dataset Cache
+.cache/
+hf-test-model/
+
+# Sistem Dosyaları
 .DS_Store
 Thumbs.db
-bert-large-risk-model/
-results/
