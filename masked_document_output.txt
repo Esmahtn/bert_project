@@ -1,0 +1,900 @@
+ID: 1
+Orijinal: İmza Tarihi:14.07.1998 Yürürlük Tarihi:01.02.2005 TÜRKİYE CUMHURİYETİ HÜKÜMETİ İLE ARNAVUTLUK CUMHURİYETİ HÜKÜMETİ ARASINDA SOSYAL GÜVENLİK SÖZLEŞMESİ TÜRKİYE CUMHURİYETİ HÜKÜMETİ VE ARNAVUTLUK CUMHURİYETİ HÜKÜMETİ, Bundan böyle "Taraflar" olarak adlandırılacaktır, sosyal güvenlik alanında işbirliği yapmayı TASARLAMIŞ, bu amaçla bir Sözleşme yapmaya KARAR VERMİŞ, ve aşağıdaki hususlarda MUTABAKATA VARMIŞLARDIR.
+Maskeli:  [KİŞİ_ADI]:14.07.[ŞİRKET_ADI] [KİŞİ_ADI]:[TARİH] [ŞİRKET_ADI]                ]                   VENLİK SÖZLEŞMESİ [ŞİRKET_ADI]                                   aflar" olarak adlandırılacaktır, sosyal güvenlik alanında işbirliği yapmayı TASARLAMIŞ, bu amaçla bir Sözleşme yapmaya KARAR VERMİŞ, ve aşağıdaki hususlarda MUTABAKATA VARMIŞLARDIR.
+--------------------------------------------------
+ID: 2
+Orijinal: 1 I.BÖLÜM GENEL HÜKÜMLER Madde 1 Tanımlar 1.
+Maskeli:  1 I.BÖLÜM GENEL HÜKÜMLER [MADDE_NO] Tanımlar 1.
+--------------------------------------------------
+ID: 3
+Orijinal: Bu sözleşmenin metninde kullanılan kavramlar: 1.1.
+Maskeli:  Bu sözleşmenin metninde kullanılan kavramlar: 1.1.
+--------------------------------------------------
+ID: 4
+Orijinal: “Ülke” Türkiye bakımından Türkiye Cumhuriyetini, Arnavutluk bakımından Arnavutluk Cumhuriyetini; 1.2.
+Maskeli:  “Ülke” [YER_ADI] bakımından [YER_ADI]           ] bakımından [YER_ADI]
+--------------------------------------------------
+ID: 5
+Orijinal: "Mevzuat” 2. maddede belirtilen Kanun, Tüzük ve Yönetmelikleri, 1.3.
+Maskeli:  "Mevzuat” 2. [KANUN_ADI], Tüzük ve Yönetmelikleri, 1.3.
+--------------------------------------------------
+ID: 6
+Orijinal: "Yardım” Bir Taraf bakımından, o Taraf mevzuatında bir hükme bağlanmış herhangi bir nakdi yardım, aylık veya ödenek anlamını ve böyle bir nakdi yardım, aylık veya ödeneğe uygulanacak her hangi bir ek veya artışı, 1.4.
+Maskeli:  "Yardım” Bir [ŞİRKET_ADI] bakımından, o [ŞİRKET_ADI] mevzuatında bir hükme bağlanmış herhangi bir nakdi yardım, aylık veya ödenek anlamını ve böyle bir nakdi yardım, aylık veya ödeneğe uygulanacak her hangi bir ek veya artışı, 1.4.
+--------------------------------------------------
+ID: 7
+Orijinal: "Yetkili Makam” Türkiye Cumhuriyeti bakımından Çalışma ve Sosyal Güvenlik Bakanlığı, ülkenin tümünde veya herhangi bir bölümünde sosyal güvenlik branşları ve sistemlerinden sorumlu Bakanlıklar ve diğer ilgili Makamları, Arnavutluk Cumhuriyeti bakımından, Çalışma ve Sosyal İşler Bakanlığı, ülkenin tümünde veya herhangi bir bölümünde sosyal güvenlik branşları ve sistemlerinden sorumlu bakanlıklar veya diğer ilgili Makamları, 1.5.
+Maskeli:  "[KİŞİ_ADI]” [YER_ADI]          n [ŞİRKET_ADI]                        erhangi bir bölümünde sosyal güvenlik branşları ve sistemlerinden sorumlu Bakanlıklar ve diğer ilgili Makamları, [YER_ADI]             [ŞİRKET_ADI]                     a herhangi bir bölümünde sosyal güvenlik branşları ve sistemlerinden sorumlu bakanlıklar veya diğer ilgili Makamları, 1.5.
+--------------------------------------------------
+ID: 8
+Orijinal: "Yetkili Kurum” 2. maddede belirtilen mevzuatın yerine getirilmesi konusunda sorumlu Kurum ve Kuruluşları, 1.6.
+Maskeli:  "[KİŞİ_ADI]” 2. maddede belirtilen mevzuatın yerine getirilmesi konusunda sorumlu Kurum ve Kuruluşları, 1.6.
+--------------------------------------------------
+ID: 9
+Orijinal: "Sigortalılık Süresi” Sigorta primleri ödenmiş ve ödenmiş sayılan süreleri, 1.7.
+Maskeli:  "[KİŞİ_ADI]” [ŞİRKET_ADI] primleri ödenmiş ve ödenmiş sayılan süreleri, 1.7.
+--------------------------------------------------
+ID: 10
+Orijinal: "Sigortalı Şahıs” 2. maddede belirtilen mevzuatın uygulandığı veya uygulanmış olduğu şahısları, 1.8.
+Maskeli:  "[KİŞİ_ADI]” 2. maddede belirtilen mevzuatın uygulandığı veya uygulanmış olduğu şahısları, 1.8.
+--------------------------------------------------
+ID: 11
+Orijinal: "Aile Ferdi” Tarafların Yetkili Kurumlarının uyguladığı mevzuatta öngörülen şahısları, 1.9.
+Maskeli:  "[KİŞİ_ADI][ŞİRKET_ADI]” [KİŞİ_ADI] Kurumlarının uyguladığı mevzuatta öngörülen şahısları, 1.9.
+--------------------------------------------------
+ID: 12
+Orijinal: "İkamet” Sürekli ikamet edilen yeri, 1.10.
+Maskeli:  "İkamet” Sürekli ikamet edilen yeri, 1.10.
+--------------------------------------------------
+ID: 13
+Orijinal: "Geçici İkamet” Taraf ülkelerden birinde sürekli oturan şahsın diğer Taraf ülkede geçici olarak ikamet ettiği yeri, ifade eder.
+Maskeli:  "[KİŞİ_ADI]” Taraf ülkelerden birinde sürekli oturan şahsın diğer Taraf ülkede geçici olarak ikamet ettiği yeri, ifade eder.
+--------------------------------------------------
+ID: 14
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 15
+Orijinal: Bu maddede belirtilmeyen her tanım, kullanıldığı mevzuatta öngörülen anlamı taşır.
+Maskeli:  Bu maddede belirtilmeyen her tanım, kullanıldığı mevzuatta öngörülen anlamı taşır.
+--------------------------------------------------
+ID: 16
+Orijinal: 2 Madde 2 Sözleşmenin Uygulanacağı Mevzuat 1.
+Maskeli:  2 [MADDE_NO] [KİŞİ_ADI] [ŞİRKET_ADI] 1.
+--------------------------------------------------
+ID: 17
+Orijinal: Bu Sözleşme aşağıdaki mevzuata uygulanır: (a) Türkiye Cumhuriyeti bakımından: a.1.
+Maskeli:  Bu [ŞİRKET_ADI] aşağıdaki mevzuata uygulanır: (a) [YER_ADI]          n: a.1.
+--------------------------------------------------
+ID: 18
+Orijinal: İşçileri kapsayan Sosyal Sigortalar Kanunu ile Tarım işçileri Sosyal Sigortalar Kanunu ; a.2.
+Maskeli:  İşçileri [ŞİRKET_ADI] [ŞİRKET_ADI]            _ADI]
+--------------------------------------------------
+ID: 19
+Orijinal: Devlet memurlarını kapsayan, Türkiye Cumhuriyeti Emekli Sandığı Kanunu (Malullük, Yaşlılık ve Ölüm) : a.3.
+Maskeli:  Devlet memurlarını kapsayan, [ŞİRKET_ADI]
+--------------------------------------------------
+ID: 20
+Orijinal: Esnaf ve Sanatkarlar ve Diğer Bağımsız Çalışanlar Sosyal Sigortalar Kurumu Kanunu ile Tarımda Kendi Adına ve Hesabına Bağımsız Çalışanlar Sosyal Sigortalar Kanunu (Malullük, Yaşlılık ve Ölüm) : a.4.
+Maskeli:  Esnaf ve Sanatkarlar ve [KİŞİ_ADI] Çalışanlar [ŞİRKET_ADI]                   Adına ve [KİŞİ_ADI] Çalışanlar [ŞİRKET_ADI]              ]ük, Yaşlılık [ŞİRKET_ADI]) : a.4.
+--------------------------------------------------
+ID: 21
+Orijinal: 506 Sayılı Sosyal Sigortalar Kanununun Geçici 20. Maddesine tabi olan Sandıklarla ilgili mevzuat: (b) Arnavutluk Cumhuriyeti bakımından: b.1.
+Maskeli:  [ŞİRKET_ADI]                           olan Sandıklarla ilgili mevzuat: (b) [YER_ADI]             b.1.
+--------------------------------------------------
+ID: 22
+Orijinal: Sosyal Sigorta Mevzuatı (Hastalık ve analık, İş kazaları ve meslek hastalıkları, maluliyet, yaşlılık ve ölüm) çalışan kişileri ve aynı zamanda ekonomik olarak aktif olan diğer kişileri (işçiler ve kendi işinde çalışanları) b.2.
+Maskeli:  [ŞİRKET_ADI]           ve analık, İş kazaları ve [ŞİRKET_ADI] hastalıkları, maluliyet, yaşlılık ve ölüm) çalışan kişileri ve aynı zamanda ekonomik olarak aktif olan diğer kişileri (işçiler ve kendi işinde çalışanları) b.2.
+--------------------------------------------------
+ID: 23
+Orijinal: Aile yardımları ile ilgili mevzuat, b.3.
+Maskeli:  [ŞİRKET_ADI]
+--------------------------------------------------
+ID: 24
+Orijinal: Sağlık sigortası ile ilgili mevzuat, b.4.
+Maskeli:  [ŞİRKET_ADI]        [ŞİRKET_ADI], b.4.
+--------------------------------------------------
+ID: 25
+Orijinal: Sağlık bakımı ile ilgili mevzuat, 2.
+Maskeli:  [ŞİRKET_ADI]
+--------------------------------------------------
+ID: 26
+Orijinal: Bu Sözleşme, 3. bendi hükmü saklı kalmak kaydıyla, 1. bendinde belirlenen mevzuatı değiştiren, ilaveler getiren, birleştiren veya yerine geçen yasal düzenlemelere de uygulanır.
+Maskeli:  [KİŞİ_ADI], 3. bendi hükmü saklı kalmak kaydıyla, 1. bendinde belirlenen mevzuatı değiştiren, ilaveler getiren, birleştiren veya yerine geçen yasal düzenlemelere de uygulanır.
+--------------------------------------------------
+ID: 27
+Orijinal: 3.
+Maskeli:  3.
+--------------------------------------------------
+ID: 28
+Orijinal: Bir Tarafın mevzuatında yeni haklar getiren değişiklikler yapıldığı takdirde, diğer Tarafa 3 ay içinde bilgi verilir.
+Maskeli:  [KİŞİ_ADI] mevzuatında yeni haklar getiren değişiklikler yapıldığı takdirde, diğer Tarafa [SÜRE] içinde bilgi verilir.
+--------------------------------------------------
+ID: 29
+Orijinal: Diğer Taraf 3 ay içinde söz konusu değişikliklere itiraz etmez ise bu sözleşme, bu değişikliklere de uygulanır.
+Maskeli:  Diğer [ŞİRKET_ADI] [SÜRE] içinde söz konusu değişikliklere itiraz etmez ise bu sözleşme, bu değişikliklere de uygulanır.
+--------------------------------------------------
+ID: 30
+Orijinal: 4.
+Maskeli:  4.
+--------------------------------------------------
+ID: 31
+Orijinal: Yeni bir sosyal sigorta koluna ilişkin mevzuata, Akit Taraflar arasında bu amaçla Sözleşme yapılması şartıyla uygulanır.
+Maskeli:  Yeni bir [ŞİRKET_ADI]       kin mevzuata, [KİŞİ_ADI] arasında bu amaçla Sözleşme yapılması şartıyla uygulanır.
+--------------------------------------------------
+ID: 32
+Orijinal: Madde 3 3 Uygulamanın Kapsadığı Kişiler Bu Sözleşme, Türkiye Cumhuriyeti ve Arnavutluk Cumhuriyeti mevzuatına tabi olan veya tabi olmuş kimseler ile bunların iki ülkeden birinin uygulanan mevzuatının kapsamında bulunan bakmakla yükümlü olduğu kimselere ve geride kalan hak sahiplerine uygulanır.
+Maskeli:  [MADDE_NO] 3 [KİŞİ_ADI] [KİŞİ_ADI] Sözleşme, [YER_ADI]          DI]             abi olan veya tabi olmuş kimseler ile bunların iki ülkeden birinin uygulanan mevzuatının kapsamında bulunan bakmakla yükümlü olduğu kimselere ve geride kalan hak sahiplerine uygulanır.
+--------------------------------------------------
+ID: 33
+Orijinal: Madde 4 İşlem Eşitliği 3 üncü maddede tanımlanan kimseler Akit Tarafların mevzuatına göre, hak ve yükümlülük bakımından eşit işlem görürler.
+Maskeli:  [MADDE_NO] [KİŞİ_ADI] 3 üncü maddede tanımlanan kimseler [ŞİRKET_ADI]ların mevzuatına göre, hak ve yükümlülük bakımından eşit işlem görürler.
+--------------------------------------------------
+ID: 34
+Orijinal: Madde 5 Yardımların İhracı Bu Sözleşmede aksi belirtilmedikçe; 1.
+Maskeli:  [MADDE_NO] [KİŞİ_ADI][ŞİRKET_ADI]ı [ŞİRKET_ADI]de aksi belirtilmedikçe; 1.
+--------------------------------------------------
+ID: 35
+Orijinal: Bu Sözleşme dolayısıyla elde edilen yardımlar dahil, 3.
+Maskeli:  [ŞİRKET_ADI] dolayısıyla elde edilen yardımlar dahil, 3.
+--------------------------------------------------
+ID: 36
+Orijinal: Maddede tanımlanan herhangi bir kimseye bir Taraf mevzuatı uyarınca ödenecek yardımlar, o kimsenin diğer Taraf ülkesinde ikamet ediyor olması nedeniyle, herhangi bir indirim, değişiklik, durdurma, iptal veya hacze tabi tutulamaz ve bu yardımlar diğer Taraf ülkesinde de ödenir.
+Maskeli:  Maddede tanımlanan herhangi bir kimseye [YER_ADI] [ŞİRKET_ADI] mevzuatı uyarınca ödenecek yardımlar, o kimsenin diğer [ŞİRKET_ADI] ülkesinde ikamet ediyor olması nedeniyle, herhangi bir indirim, değişiklik, durdurma, iptal veya hacze tabi tutulamaz ve bu yardımlar diğer [ŞİRKET_ADI] ülkesinde de ödenir.
+--------------------------------------------------
+ID: 37
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 38
+Orijinal: Her iki Tarafın mevzuatına tabi olan veya olmuş bir kimseye veya böyle bir kimsenin bakmakla yükümlü olduğu kimseler veya geride kalan hak sahiplerine, bu Sözleşme uyarınca ödenecek yardımlar, üçüncü bir Devlet ülkesinde de ödenir.
+Maskeli:  Her iki Tarafın mevzuatına tabi olan veya olmuş bir kimseye veya böyle bir kimsenin bakmakla yükümlü olduğu kimseler veya geride kalan hak sahiplerine, bu Sözleşme uyarınca ödenecek yardımlar, üçüncü bir [ŞİRKET_ADI] ülkesinde de ödenir.
+--------------------------------------------------
+ID: 39
+Orijinal: 3.
+Maskeli:  3.
+--------------------------------------------------
+ID: 40
+Orijinal: Bu maddenin 1.
+Maskeli:  Bu maddenin 1.
+--------------------------------------------------
+ID: 41
+Orijinal: Paragraf hükümleri aşağıdaki yardımlara uygulanmaz.
+Maskeli:  Paragraf hükümleri aşağıdaki yardımlara uygulanmaz.
+--------------------------------------------------
+ID: 42
+Orijinal: a) İşsizlik yardımları, b) Bir yardım veya ihtiyaç durumunda bağlanan özel yardımlar.
+Maskeli:  a) [ŞİRKET_ADI]   ı, b) Bir yardım veya ihtiyaç durumunda bağlanan özel yardımlar.
+--------------------------------------------------
+ID: 43
+Orijinal: II.
+Maskeli:  [KİŞİ_ADI]
+--------------------------------------------------
+ID: 44
+Orijinal: BÖLÜM UYGULANACAK MEVZUATLA İLGİLİ HÜKÜMLER Madde 6 Kapsam ile ilgili Kurallar 1.
+Maskeli:  BÖLÜM UYGULANACAK MEVZUATLA İLGİLİ HÜKÜMLER [MADDE_NO] Kapsam ile ilgili Kurallar 1.
+--------------------------------------------------
+ID: 45
+Orijinal: Bu Sözleşmenin aşağıdaki hükümleri saklı kalmak kaydıyla; 1.1.
+Maskeli:  [KİŞİ_ADI] aşağıdaki hükümleri saklı kalmak kaydıyla; 1.1.
+--------------------------------------------------
+ID: 46
+Orijinal: Bir Taraf ülkesinde istihdam edilen bir kimse, o işle ilgili olarak, sadece o Tarafın mevzuatına tabi olur; ve 1.2.
+Maskeli:  Bir [ŞİRKET_ADI] ülkesinde istihdam edilen bir kimse, o işle ilgili olarak, sadece o Tarafın mevzuatına tabi olur; ve 1.2.
+--------------------------------------------------
+ID: 47
+Orijinal: Daimi olarak bir Taraf ülkesinde ikamet eden ve diğer Tarafın ülkesinde veya her iki Taraf ülkesinde kendi hesabına, kendi işinde çalışan bir kimse, o işle ilgili olarak, sadece daimi ikamet ettiği Tarafın mevzuatına tabi olur.
+Maskeli:  Daimi olarak bir Taraf ülkesinde ikamet eden ve diğer Tarafın ülkesinde veya her iki Taraf ülkesinde kendi hesabına, kendi işinde çalışan bir kimse, o işle ilgili olarak, sadece daimi ikamet ettiği Tarafın mevzuatına tabi olur.
+--------------------------------------------------
+ID: 48
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 49
+Orijinal: Bir Tarafın mevzuatına tabi olan ve işvereni tarafından diğer Taraf ülkesinde 24 ayı geçmeyecek bir süre istihdam edilen bir kimse, bu hizmetleri birinci Taraf ülkesinde 4 yapıyormuş gibi sadece birinci Taraf ülkesinin mevzuatına tabi olur.
+Maskeli:  Bir [ŞİRKET_ADI]ın mevzuatına tabi olan ve işvereni tarafından diğer Taraf ülkesinde 24 ayı geçmeyecek bir süre istihdam edilen bir kimse, bu hizmetleri birinci [ŞİRKET_ADI] ülkesinde 4 yapıyormuş gibi sadece [YER_ADI] [ŞİRKET_ADI] ülkesinin mevzuatına tabi olur.
+--------------------------------------------------
+ID: 50
+Orijinal: Her iki Tarafın Yetkili Makamlarının önceden onayı ile bu 24 aylık süre, toplam olarak 60 ayı geçmemek kaydı ile uzatılabilir.
+Maskeli:  Her iki [KİŞİ_ADI] Makamlarının önceden onayı ile bu 24 aylık süre, toplam olarak 60 ayı geçmemek kaydı ile uzatılabilir.
+--------------------------------------------------
+ID: 51
+Orijinal: 3.
+Maskeli:  3.
+--------------------------------------------------
+ID: 52
+Orijinal: Bir kimse, bu Sözleşme hükümleri uygulanmaksızın bir geminin mürettebatı olarak iş nedeniyle her iki Taraf mevzuatına tabi olacak ise, bu işle ilgili olarak Türk bandırası taşıyan gemide çalışan personel Türk mevzuatına, Arnavutluk bandırası taşıyan gemide çalışan personel Arnavutluk mevzuatına tabidir.
+Maskeli:  Bir kimse, bu [ŞİRKET_ADI] hükümleri uygulanmaksızın bir geminin mürettebatı olarak iş nedeniyle her iki [ŞİRKET_ADI] mevzuatına tabi olacak ise, bu işle ilgili olarak [YER_ADI] bandırası taşıyan gemide çalışan personel [YER_ADI] mevzuatına, [YER_ADI]       şıyan gemide çalışan personel [YER_ADI] mevzuatına tabidir.
+--------------------------------------------------
+ID: 53
+Orijinal: 4.
+Maskeli:  4.
+--------------------------------------------------
+ID: 54
+Orijinal: Bir Taraf adına diğer Akit Taraf ülkesinde bir hükümet çalışması görevi ile ilgili olarak istihdam edilen kimseler eğer istihdam eden Tarafın vatandaşı iseler, vatandaşı olduğu Tarafın mevzuatına tabi olurlar.
+Maskeli:  [KİŞİ_ADI] adına diğer [ŞİRKET_ADI] ülkesinde bir hükümet çalışması görevi ile ilgili olarak istihdam edilen kimseler eğer istihdam eden Tarafın vatandaşı iseler, vatandaşı olduğu Tarafın mevzuatına tabi olurlar.
+--------------------------------------------------
+ID: 55
+Orijinal: Bu kimseler diğer Akit Tarafın vatandaşı iseler veya daimi olarak o ülkede ikamet etmekte iseler haklarında daimi ikamet ettikleri ülkenin mevzuatının uygulanması isteyebilirler.
+Maskeli:  Bu kimseler diğer [ŞİRKET_ADI]ın vatandaşı iseler veya daimi olarak o ülkede ikamet etmekte iseler haklarında daimi ikamet ettikleri ülkenin mevzuatının uygulanması isteyebilirler.
+--------------------------------------------------
+ID: 56
+Orijinal: Yapılan tercih eski sürelere teşmil edilemez.
+Maskeli:  Yapılan tercih eski sürelere teşmil edilemez.
+--------------------------------------------------
+ID: 57
+Orijinal: 5.
+Maskeli:  5.
+--------------------------------------------------
+ID: 58
+Orijinal: Tarafların Yetkili Makamları, ortak mutabakat ile herhangi bir kimse veya grupları ile ilgili olarak bu madde hükümlerinin uygulanmasını değiştirebilirler.
+Maskeli:  [KİŞİ_ADI] Makamları, ortak mutabakat ile herhangi bir kimse veya grupları ile ilgili olarak bu madde hükümlerinin uygulanmasını değiştirebilirler.
+--------------------------------------------------
+ID: 59
+Orijinal: III.
+Maskeli:  [KİŞİ_ADI]
+--------------------------------------------------
+ID: 60
+Orijinal: BÖLÜM YARDIMLARLA İLGİLİ HÜKÜMLER I. KISIM BİRLEŞTİRME Madde 7 Sigortalılık Sürelerinin Birleştirilmesi 1.
+Maskeli:  BÖLÜM YARDIMLARLA İLGİLİ HÜKÜMLER I. KISIM BİRLEŞTİRME [ŞİRKET_ADI] 7 [ŞİRKET_ADI] [KİŞİ_ADI][ŞİRKET_ADI] 1.
+--------------------------------------------------
+ID: 61
+Orijinal: Taraflardan birinin mevzuatına göre yardıma hak kazanılması, korunması veya yeniden kazanılmasının belirli sigortalılık sürelerinin tanımlanmasına bağlı olduğu hallerde, bir Tarafın Yetkili Kurumu diğer Taraftaki sigortalılık sürelerini, aynı zamana rastlamamak şartı ile kendi mevzuatına uygun olarak kabul eder.
+Maskeli:  Taraflardan birinin mevzuatına göre yardıma hak kazanılması, korunması veya yeniden kazanılmasının belirli sigortalılık sürelerinin tanımlanmasına bağlı olduğu hallerde, bir Taraf[ŞİRKET_ADI] [ŞİRKET_ADI]  iğer Taraftaki sigortalılık sürelerini, aynı zamana rastlamamak şartı ile kendi mevzuatına uygun olarak kabul eder.
+--------------------------------------------------
+ID: 62
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 63
+Orijinal: Taraflardan birinin mevzuatına göre sigortalı olarak ilk işe alınma, yardım hakkının korunması veya tekrar kazanılması şartlarının tespit edilmesinde, diğer Taraftaki süreler ve ilk işe başlama tarihi dikkate alınır.
+Maskeli:  Taraflardan birinin mevzuatına göre sigortalı olarak ilk işe alınma, yardım hakkının korunması veya tekrar kazanılması şartlarının tespit edilmesinde, diğer Taraftaki süreler ve ilk işe başlama tarihi dikkate alınır.
+--------------------------------------------------
+ID: 64
+Orijinal: Madde 8 Üçüncü Bir Devlet Mevzuatına Göre Geçen Süreler Eğer bir kimse, Tarafların mevzuatları uyarınca, 7. maddede belirtildiği gibi birleştirilmiş sigortalılık süreleri esas alınarak, bir yardım ödenmesine hak kazanamaz ise, bu kimsenin bu yardım ödemesine hak kazanıp kazanmadığı bu süreler ile her iki Taraftaki sürelerin birleştirilmesini sağlayan sosyal güvenlik sözleşmeleriyle bağlı bulundukları bir üçüncü Devletin mevzuatına göre geçen sigortalılık sürelerinin birleştirilmesi suretiyle tespit edilir.
+Maskeli:  [MADDE_NO] [ŞİRKET_ADI]     uatına [KİŞİ_ADI] [KİŞİ_ADI] bir kimse, Tarafların mevzuatları uyarınca, 7. maddede belirtildiği gibi birleştirilmiş sigortalılık süreleri esas alınarak, bir yardım ödenmesine hak kazanamaz ise, bu kimsenin bu yardım ödemesine hak kazanıp kazanmadığı bu süreler ile her iki Taraftaki sürelerin birleştirilmesini sağlayan [ŞİRKET_ADI]   zleşmeleriyle bağlı bulundukları bir üçüncü [ŞİRKET_ADI] mevzuatına göre geçen sigortalılık sürelerinin birleştirilmesi suretiyle tespit edilir.
+--------------------------------------------------
+ID: 65
+Orijinal: Madde 9 5 Birleştirilecek Asgari Süre Bu Sözleşmenin diğer bir hükmüne bakılmaksızın, bir Taraf mevzuatı uyarınca, bir kimse tarafından tamamlanmış sigortalılık sürelerinin toplamı bir yıldan az ise ve eğer, sadece bu süreler göz önüne alınarak, o mevzuat uyarınca bir yardım hakkı doğmuyorsa o Tarafın Yetkili Kurumundan bu Sözleşme dolayısı ile bu süreler ile ilgili olarak ilgili kimseye herhangi bir yardım bağlanılması talep edilemez.
+Maskeli:  [MADDE_NO] 5 [KİŞİ_ADI] [KİŞİ_ADI] [ŞİRKET_ADI]nin diğer bir hükmüne bakılmaksızın, bir [ŞİRKET_ADI] mevzuatı uyarınca, bir kimse tarafından tamamlanmış sigortalılık sürelerinin toplamı bir yıldan az ise ve eğer, sadece bu süreler göz önüne alınarak, o mevzuat uyarınca bir yardım hakkı doğmuyorsa o [KİŞİ_ADI] [ŞİRKET_ADI]ndan bu Sözleşme dolayısı ile bu süreler ile ilgili olarak ilgili kimseye herhangi bir yardım bağlanılması talep edilemez.
+--------------------------------------------------
+ID: 66
+Orijinal: Şu kadar ki, bu süreler uygulanan mevzuata göre yardım hakkının belirlenmesinde diğer Tarafça dikkate alınır II.
+Maskeli:  Şu kadar ki, bu süreler uygulanan mevzuata göre yardım hakkının belirlenmesinde diğer Tarafça dikkate alınır II.
+--------------------------------------------------
+ID: 67
+Orijinal: KISIM HASTALIK VE ANALIK YARDIMLARI Madde 10 Sigortalılık Sürelerinin Birleştirilmesi Akit Taraflardan birinin mevzuatına göre hastalık ve analık yardımları hakkının doğması, korunması veya yeniden kazanılmasının, belirli sigortalılık veya çalışma sürelerinin tamamlanmasına bağlı olduğu hallerde, bir Akit Tarafın Yetkili Kurumu diğer Akit Tarafın mevzuatına göre tamamlanmış sigortalılık veya çalışma sürelerini kendi mevzuatına göre tamamlanmış süreler gibi dikkate alınır.
+Maskeli:  KISIM HASTALIK VE ANALIK YARDIMLARI [MADDE_NO] [KİŞİ_ADI] Birleştirilmesi [ŞİRKET_ADI]lardan birinin mevzuatına göre hastalık ve analık yardımları hakkının doğması, korunması veya yeniden kazanılmasının, belirli sigortalılık veya çalışma sürelerinin tamamlanmasına bağlı olduğu hallerde, bir [ŞİRKET_ADI] Yetkili [ŞİRKET_ADI] diğer [ŞİRKET_ADI]ın mevzuatına göre tamamlanmış sigortalılık veya çalışma sürelerini kendi mevzuatına göre tamamlanmış süreler gibi dikkate alınır.
+--------------------------------------------------
+ID: 68
+Orijinal: Madde 11 Sağlık Yardımlarından Yararlanma 1.
+Maskeli:  [ŞİRKET_ADI] 11 [ŞİRKET_ADI] arından Yararlanma 1.
+--------------------------------------------------
+ID: 69
+Orijinal: İşverenleri tarafından belli bir işin icrası için geçici görevle Türkiye' de çalıştırılan Arnavutluk Sigortalısı ile yanlarında ikamet eden aile fertleri veya Arnavutluk' ta çalıştırılan Türk sigortalısı ile yanlarında ikamet eden aile fertlerinin durumları derhal (acil) tedaviyi gerektirdiği zaman iş merkezinin bulunduğu Taraf ülkenin hesabına, hastalık veya analık sigortası yardımlarından, hastaneye yatırılma dahil, yararlanırlar.
+Maskeli:  İşverenleri tarafından belli bir işin icrası için geçici görevle [YER_ADI]' de çalıştırılan [YER_ADI] [ŞİRKET_ADI]lısı ile yanlarında ikamet eden aile fertleri veya [YER_ADI]  ta çalıştırılan [YER_ADI] sigortalısı ile yanlarında ikamet eden aile fertlerinin durumları derhal (acil) tedaviyi gerektirdiği zaman iş merkezinin bulunduğu Taraf ülkenin hesabına, hastalık veya analık sigortası yardımlarından, hastaneye yatırılma dahil, yararlanırlar.
+--------------------------------------------------
+ID: 70
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 71
+Orijinal: Akit Taraflardan birinin mevzuatına göre sigortalı çalışan kimseler ile yanlarında ikamet eden aile fertlerinin geçici olarak diğer Akit Taraf ülkesinde bulundukları sırada, sağlık durumları derhal (acil) tedaviyi gerektirdiği zaman , kayıtlı bulundukları ülkenin hesabına hastalık veya analık sigortası yardımlarından, hastaneye yatırılma dahil, yararlanırlar.
+Maskeli:  [ŞİRKET_ADI]lardan birinin mevzuatına göre sigortalı çalışan kimseler ile yanlarında ikamet eden aile fertlerinin geçici olarak diğer [ŞİRKET_ADI] ülkesinde bulundukları sırada, sağlık durumları derhal (acil) tedaviyi gerektirdiği zaman , kayıtlı bulundukları ülkenin hesabına hastalık veya anal[ŞİRKET_ADI] sigortası yardımlarından, hastaneye yatırılma dahil, yararlanırlar.
+--------------------------------------------------
+ID: 72
+Orijinal: 3.
+Maskeli:  3.
+--------------------------------------------------
+ID: 73
+Orijinal: Akit Taraflardan birinin mevzuatına göre sigortalı çalışan kimseler ile yanlarında ikamet eden aile fertleri Türkiye Cumhuriyeti veya Arnavutluk Cumhuriyeti Sosyal Güvenlik Kurumlarınca sağlanan hastalık veya analık sigortası yardımlarından yararlanmakta iken, ikametgahını diğer Akit Taraf ülkesine naklettiği takdirde, bu yardımlardan yaralanmaya devam ederler.
+Maskeli:  Akit [ŞİRKET_ADI]lardan birinin mevzuatına göre sigortalı çalışan kimseler ile yanlarında ikamet eden aile fertleri [YER_ADI]          _ADI] [ŞİRKET_ADI]                         a anal[ŞİRKET_ADI] sigortası yardımlarından yararlanmakta iken, ikametgahını diğer [ŞİRKET_ADI] ülkesine naklettiği takdirde, bu yardımlardan yaralanmaya devam ederler.
+--------------------------------------------------
+ID: 74
+Orijinal: Ancak ilgili, ikametgahını değiştirmeden önce Yetkili Kurumun müsaadesini almak zorundadır.
+Maskeli:  Ancak ilgili, ikametgahını değiştirmeden önce [ŞİRKET_ADI]  müsaadesini almak zorundadır.
+--------------------------------------------------
+ID: 75
+Orijinal: Müsaade talebi, yalnız bu Kurumun bir hekimi tarafından ilgilinin sağlık durumunun ikametgahını diğer Akit Taraf ülkesine nakletmesine mani olduğu hakkında rapor verilmesi halinde reddolunur.
+Maskeli:  Müsaade talebi, yalnız bu Kurumun bir hekimi tarafından ilgilinin sağlık durumunun ikametgahını diğer [ŞİRKET_ADI] ülkesine nakletmesine mani olduğu hakkında rapor verilmesi halinde reddolunur.
+--------------------------------------------------
+ID: 76
+Orijinal: Elde olmayan sebeplerden dolayı önceden alınmamış olsa dahi, muvafakat sonradan da verilebilir.
+Maskeli:  Elde olmayan sebeplerden dolayı önceden alınmamış olsa dahi, muvafakat sonradan da verilebilir.
+--------------------------------------------------
+ID: 77
+Orijinal: 4.
+Maskeli:  4.
+--------------------------------------------------
+ID: 78
+Orijinal: Yardımlara hak kazanılıp kazanılmadığı sigortalının istihdam edildiği ülke mevzuatına göre, aile fertleri, yardımların kapsamı ve ifa şekli ise ikamet edilen veya geçici olarak bulunulan ülke mevzuatına göre tayin edilir.
+Maskeli:  Yardımlara hak kazanılıp kazanılmadığı sigortalının istihdam edildiği ülke mevzuatına göre, aile fertleri, yardımların kapsamı ve ifa şekli ise ikamet edilen veya geçici olarak bulunulan ülke mevzuatına göre tayin edilir.
+--------------------------------------------------
+ID: 79
+Orijinal: 6 5.
+Maskeli:  6 5.
+--------------------------------------------------
+ID: 80
+Orijinal: Sigortalı bulunduğu ülke mevzuatına göre yardıma hak kazanmış olan kişinin diğer Taraf ülkesinde ikamet eden aile fertleri, ikamet ettikleri ülkenin mevzuatına göre sağlık yardımlarından faydalanma hakkına sahip bulunmamak şartı ile hastalık , analık sigortasıyla sağlanan sağlık yardımlarından faydalanırlar.
+Maskeli:  Sigortalı bulunduğu ülke mevzuatına göre yardıma hak kazanmış olan kişinin diğer Taraf ülkesinde ikamet eden aile fertleri, ikamet ettikleri ülkenin mevzuatına göre sağlık yardımlarından faydalanma hakkına sahip bulunmamak şartı ile hastalık , analık sigortasıyla sağlanan sağlık yardımlarından faydalanırlar.
+--------------------------------------------------
+ID: 81
+Orijinal: 6.
+Maskeli:  6.
+--------------------------------------------------
+ID: 82
+Orijinal: Aile fertleri ikametgahlarını Yetkili Kurumun bulunduğu ülkeye naklettiklerinde, yardımlardan, bu Akit Taraf mevzuatındaki hükümlere göre faydalanırlar.
+Maskeli:  Aile fertleri ikametgahlarını Yetkili [ŞİRKET_ADI]n bulunduğu ülkeye naklettiklerinde, yardımlardan, bu [ŞİRKET_ADI] mevzuatındaki hükümlere göre faydalanırlar.
+--------------------------------------------------
+ID: 83
+Orijinal: Bu hüküm, aile fertlerine ikametgahlarını değiştirmeden önce bulundukları ülkenin kurumu tarafından sağlanan yardımlardan aynı hastalık veya analık vak'ası için faydalanmaya başlamış olmaları halinde de uygulanır.
+Maskeli:  Bu hüküm, aile fertlerine ikametgahlarını değiştirmeden önce bulundukları ülkenin kurumu tarafından sağlanan yardımlardan aynı hastalık veya analık vak'ası için faydalanmaya başlamış olmaları halinde de uygulanır.
+--------------------------------------------------
+ID: 84
+Orijinal: Bu halde Yetkili Kurumun uyguladığı mevzuatta sağlık yardımları için azami bir süre belirtilmiş ise, ikametgahın naklinden önce yardım yapılmış olan süreler dikkate alınır.
+Maskeli:  Bu halde [ŞİRKET_ADI]  uyguladığı mevzuatta sağlık yardımları için azami bir süre belirtilmiş ise, ikametgahın naklinden önce yardım yapılmış olan süreler dikkate alınır.
+--------------------------------------------------
+ID: 85
+Orijinal: 7.
+Maskeli:  7.
+--------------------------------------------------
+ID: 86
+Orijinal: Yardımların giderleri, sigortalının kayıtlı bulunduğu Taraf ülkece karşılanır.
+Maskeli:  Yardımların giderleri, sigortalının kayıtlı bulunduğu [YER_ADI] ülkece karşılanır.
+--------------------------------------------------
+ID: 87
+Orijinal: Madde 12 Aylık Sahiplerinin Sağlık Yardımları 1.
+Maskeli:  [MADDE_NO] [KİŞİ_ADI] [KİŞİ_ADI] 1.
+--------------------------------------------------
+ID: 88
+Orijinal: İki ülkede geçmiş sigortalılık sürelerinin birleştirilmesi suretiyle her iki Akit Taraf mevzuatına göre aylık veya gelir bağlanmış olan bir kimse, ülkesinde ikamet etmekte olduğu Akit Tarafın mevzuatına göre sağlık yardımlarına hak kazandığı ve aile fertlerine bu hakkı kazandırdığı takdirde, yardımlar ikamet edilen ülkenin kurumunun yükümlülüğünde ve bu kurumun mevzuatına göre sağlanır.
+Maskeli:  İki ülkede geçmiş sigortalılık sürelerinin birleştirilmesi suretiyle her iki [ŞİRKET_ADI] mevzuatına göre aylık veya gelir bağlanmış olan bir kimse, ülkesinde ikamet etmekte olduğu [ŞİRKET_ADI]ın mevzuatına göre sağlık yardımlarına hak kazandığı ve aile fertlerine bu hakkı kazandırdığı takdirde, yardımlar ikamet edilen ülkenin kurumunun yükümlülüğünde ve bu kurumun mevzuatına göre sağlanır.
+--------------------------------------------------
+ID: 89
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 90
+Orijinal: Akit Taraflardan yalnız birinin mevzuatına göre aylık veya gelir bağlanmış olan bir kimse, diğer Akit Taraf ülkesinde ikamet ettiği takdirde, aylığı ödeyen Akit Taraf mevzuatı uyarınca gerek kendisinin gerek aile fertlerinin hak kazandıkları sağlık yardımları, aylığı ödeyen Akit Taraf Yetkili Kurumunun nam ve hesabına ikamet mahallindeki kurumca sağlanır.
+Maskeli:  [ŞİRKET_ADI]lardan yalnız birinin mevzuatına göre aylık veya gelir bağlanmış olan bir kimse, diğer [ŞİRKET_ADI] ülkesinde ikamet ettiği takdirde, aylığı ödeyen [ŞİRKET_ADI] mevzuatı uyarınca gerek kendisinin gerek aile fertlerinin hak kazandıkları sağlık yardımları, aylığı ödeyen [ŞİRKET_ADI]             sabına ikamet mahallindeki kurumca sağlanır.
+--------------------------------------------------
+ID: 91
+Orijinal: 3.
+Maskeli:  3.
+--------------------------------------------------
+ID: 92
+Orijinal: Her iki Akit Taraf mevzuatına göre aylık veya gelir bağlanmış olan kimseler ile Akit Taraflardan yalnız birinin mevzuatına göre aylık veya gelir bağlanmış olan kimselerin ve bunların yanlarında ikamet eden aile fertlerinin diğer Akit Taraf ülkesinde geçici ikametlerinde, durumları derhal (acil) yardım yapılmasını gerektirdiği zaman, birinci halde daimi ikamet edilen ülkenin Yetkili Kurumu, ikinci halde aylığı ödeyen ülkenin Yetkili Kurumu hesabına olmak kaydıyla, sağlık yardımlarından yararlanırlar.
+Maskeli:  Her iki [ŞİRKET_ADI] mevzuatına göre aylık veya gelir bağlanmış olan kimseler ile [ŞİRKET_ADI]lardan yalnız birinin mevzuatına göre aylık veya gelir bağlanmış olan kimselerin ve bunların yanlarında ikamet eden aile fertlerinin diğer [ŞİRKET_ADI] ülkesinde geçici ikametlerinde, durumları derhal (acil) yardım yapılmasını gerektirdiği zaman, birinci halde daimi ikamet edilen ülkenin [ŞİRKET_ADI]  ikinci halde aylığı ödeyen ülkenin [ŞİRKET_ADI]  esabına olmak kaydıyla, sağlık yardımlarından yararlanırlar.
+--------------------------------------------------
+ID: 93
+Orijinal: 4.
+Maskeli:  4.
+--------------------------------------------------
+ID: 94
+Orijinal: Bu yardımlara hak kazanılıp kazanılmadığı, her iki Taraftan aylık almakta olanlar için daimi ikamet ettiği ülkenin, sadece bir Taraftan aylık alanlar için ise aylığı ödeyen Akit Tarafın mevzuatına göre tespit olunur.
+Maskeli:  Bu yardımlara hak kazanılıp kazanılmadığı, her iki Taraftan aylık almakta olanlar için daimi ikamet ettiği ülkenin, sadece bir Taraftan aylık alanlar için ise aylığı ödeyen [ŞİRKET_ADI]ın mevzuatına göre tespit olunur.
+--------------------------------------------------
+ID: 95
+Orijinal: Yardımların kapsamı, süresi ve ifa şekli aylık almakta olan kimsenin ikamet ettiği ülke mevzuatına göre tayin edilir.
+Maskeli:  Yardımların kapsamı, süresi ve ifa şekli aylık almakta olan kimsenin ikamet ettiği ülke mevzuatına göre tayin edilir.
+--------------------------------------------------
+ID: 96
+Orijinal: Madde 13 Önemli Sağlık Yardımları ile Para Yardımları 7 1.
+Maskeli:  [MADDE_NO] [ŞİRKET_ADI] [KİŞİ_ADI] ile [KİŞİ_ADI] 7 1.
+--------------------------------------------------
+ID: 97
+Orijinal: Bu Sözleşmenin 11, 12/2-3 maddeleri gereğince sağlık yardımlarından yararlanma hakkı bulunan kimselere yapılacak önemli sağlık yardımlarının sağlanması, mutlak olarak acil olan haller dışında Yetkili Kurumun müsaade vermesi şartına bağlıdır.
+Maskeli:  Bu [ŞİRKET_ADI]nin 11, 12/2-3 maddeleri gereğince sağlık yardımlarından yararlanma hakkı bulunan kimselere yapılacak önemli sağlık yardımlarının sağlanması, mutlak olarak acil olan haller dışında [KİŞİ_ADI] müsaade vermesi şartına bağlıdır.
+--------------------------------------------------
+ID: 98
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 99
+Orijinal: Para yardımlarının (günlük ödeneklerin) ödenmesi ilgilinin kayıtlı bulunduğu Kurumun mevzuatına göre sağlanır.
+Maskeli:  Para yardımlarının (günlük ödeneklerin) ödenmesi ilgilinin kayıtlı bulunduğu [ŞİRKET_ADI]n mevzuatına göre sağlanır.
+--------------------------------------------------
+ID: 100
+Orijinal: Madde 14 Sağlık Yardımı Masraflarının Ödenmesi Bu Sözleşmenin 11, 12, 13, 15, 18, 19, 20. maddelerinde öngörülen hallerde yapılan sağlık yardım masrafları, ilgilinin kayıtlı bulunduğu Kurum Tarafından, yardımları yapan ülkenin Yetkili Kurumuna, İdari Anlaşma ile tespit edilecek usul ve esaslar dahilinde ödenir.
+Maskeli:  [MADDE_NO] [KİŞİ_ADI] [KİŞİ_ADI] [ŞİRKET_ADI]nin 11, 12, 13, 15, 18, 19, 20. maddelerinde öngörülen hallerde yapılan sağlık yardım masrafları, ilgilinin kayıtlı bulunduğu [KİŞİ_ADI], yardımları yapan ülkenin [ŞİRKET_ADI]  , [KİŞİ_ADI] ile tespit edilecek usul ve esaslar dahilinde ödenir.
+--------------------------------------------------
+ID: 101
+Orijinal: Madde 15 Analık Yardımları Bir sigortalının veya bunların aile fertlerinden birinin bir veya her iki Akit Taraf mevzuatına göre analık yardımlarından faydalanma hakkının doğması halinde bu kişiler hakkında, gerekirse 10.maddeye göre birleştirilen sigortalılık süreleri de nazara alınmak suretiyle, yalnız doğumun vuku bulduğu ülkede yürürlükte olan mevzuat hükümleri uygulanır.
+Maskeli:  [MADDE_NO] [ŞİRKET_ADI]ık [KİŞİ_ADI] sigortalının veya bunların aile fertlerinden birinin bir veya her iki [ŞİRKET_ADI] mevzuatına göre analık yardımlarından faydalanma hakkının doğması halinde bu kişiler hakkında, gerekirse 10.maddeye göre birleştirilen sigortalılık süreleri de nazara alınmak suretiyle, yalnız doğumun vuku bulduğu ülkede yürürlükte olan mevzuat hükümleri uygulanır.
+--------------------------------------------------
+ID: 102
+Orijinal: Analık yardımlarına hak kazanan bir kimseye yapılan sağlık yardımları, duruma göre bu Sözleşmenin 11, 12 ve 13.maddelerindeki esaslar çerçevesinde karşılanır.
+Maskeli:  Analık yardımlarına hak kazanan bir kimseye yapılan sağlık yardımları, duruma göre bu Sözleşmenin 11, 12 ve 13.maddelerindeki esaslar çerçevesinde karşılanır.
+--------------------------------------------------
+ID: 103
+Orijinal: III.
+Maskeli:  [KİŞİ_ADI]
+--------------------------------------------------
+ID: 104
+Orijinal: KISIM CENAZE MASRAFLARI Madde 16 1.
+Maskeli:  KISIM CENAZE MASRAFLARI [MADDE_NO] 1.
+--------------------------------------------------
+ID: 105
+Orijinal: Akit Taraflardan birinin mevzuatına göre sigortalı bulunan bir kimse, diğer Akit Taraf ülkesinde öldüğü takdirde, sigortalı olduğu Akit Taraf ülkesinde ölmüş gibi, cenaze masraflarına hak kazanır.
+Maskeli:  [ŞİRKET_ADI]lardan birinin mevzuatına göre sigortalı bulunan bir kimse, diğer [ŞİRKET_ADI] ülkesinde öldüğü takdirde, sigortalı olduğu [ŞİRKET_ADI] ülkesinde ölmüş gibi, cenaze masraflarına hak kazanır.
+--------------------------------------------------
+ID: 106
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 107
+Orijinal: Bu Sözleşmenin uygulanmasında, her iki Akit Taraf mevzuatına göre cenaze masrafı ödenmesi mümkün olan hallerde, cenaze masrafı ölüm hangi Akit Taraf ülkesinde vaki olmuş ise o Taraf mevzuatına göre ödenir.
+Maskeli:  Bu [ŞİRKET_ADI]nin uygulanmasında, her iki [ŞİRKET_ADI] mevzuatına göre cenaze masrafı ödenmesi mümkün olan hallerde, cenaze masrafı ölüm hangi [ŞİRKET_ADI] ülkesinde vaki olmuş ise o [TARAF_ADI] göre ödenir.
+--------------------------------------------------
+ID: 108
+Orijinal: 3.
+Maskeli:  3.
+--------------------------------------------------
+ID: 109
+Orijinal: Ölüm Akit Tarafların ülkeleri dışında vuku bulmuş ise, maktu cenaze masrafı karşılığı, ölen kimse son olarak Akit Taraflardan hangisinin mevzuatına tabi olmuş ise O Taraf mevzuatına göre ödenir.
+Maskeli:  [KİŞİ_ADI] [ŞİRKET_ADI]ların ülkeleri dışında vuku bulmuş ise, maktu cenaze masrafı karşılığı, ölen kimse son olarak [ŞİRKET_ADI]it [ŞİRKET_ADI]lardan hangisinin mevzuatına tabi olmuş ise O [ŞİRKET_ADI] mevzuatına göre ödenir.
+--------------------------------------------------
+ID: 110
+Orijinal: 4.
+Maskeli:  4.
+--------------------------------------------------
+ID: 111
+Orijinal: İlgilinin ölüm tarihinde, söz konusu yardım hakkının doğması için yeni çalışılan ülkenin mevzuatında öngörülen sigortalılık süresini doldurmaması halinde, bu ülkede geçen sigortalılık sürelerini tamamlamak üzere, diğer ülkede işçinin daha önce geçirdiği sigortalılık süreleri de dikkate alınır.
+Maskeli:  İlgilinin ölüm tarihinde, söz konusu yardım hakkının doğması için yeni çalışılan ülkenin mevzuatında öngörülen sigortalılık süresini doldurmaması halinde, bu ülkede geçen sigortalılık sürelerini tamamlamak üzere, diğer ülkede işçinin daha önce geçirdiği sigortalılık süreleri de dikkate alınır.
+--------------------------------------------------
+ID: 112
+Orijinal: IV.
+Maskeli:  [KİŞİ_ADI].
+--------------------------------------------------
+ID: 113
+Orijinal: KISIM MALÜLLÜK, YAŞLILIK VE ÖLÜM YARDIMLARI 8 Madde 17 Ödenecek Yardım Miktarının Hesaplanması 1.
+Maskeli:  [ŞİRKET_ADI] MAL[ŞİRKET_ADI]LÜK, [ŞİRKET_ADI][ŞİRKET_ADI]LIK VE ÖLÜM YARDIMLARI 8 [MADDE_NO] [KİŞİ_ADI] [KİŞİ_ADI] 1.
+--------------------------------------------------
+ID: 114
+Orijinal: Taraflardan birinin mevzuatına göre münhasıran aylık veya gelir bağlanmasına hak kazanan bir kimseye, diğer Akit Tarafta geçen sigortalılık süreleri dikkate alınmadan müstakil aylık bağlanır.
+Maskeli:  Taraflardan birinin mevzuatına göre münhasıran aylık veya gelir bağlanmasına hak kazanan bir kimseye, diğer [ŞİRKET_ADI]ta geçen sigortalılık süreleri dikkate alınmadan müstakil aylık bağlanır.
+--------------------------------------------------
+ID: 115
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 116
+Orijinal: Bir Akit Taraf mevzuatına göre müstakil bir aylık veya gelir bağlanması hakkının mevcut olmaması, ancak Sözleşmenin 7 veya 8. maddesine göre geçen süreler dikkate alınmak suretiyle bir aylık veya gelir talep etme hakkının mevcut olması halinde, aşağıdaki hükümler uygulanır.
+Maskeli:  Bir [ŞİRKET_ADI] mevzuatına göre müstakil bir aylık veya gelir bağlanması hakkının mevcut olmaması, ancak Sözleşmenin 7 veya 8. maddesine göre geçen süreler dikkate alınmak suretiyle bir aylık veya gelir talep etme hakkının mevcut olması halinde, aşağıdaki hükümler uygulanır.
+--------------------------------------------------
+ID: 117
+Orijinal: 2.1.
+Maskeli:  2.1.
+--------------------------------------------------
+ID: 118
+Orijinal: Aylığın hesaplanmasında her bir Tarafın yetkili sosyal güvenlik kurumu, birleştirilen sigortalılık sürelerini kendi mevzuatına göre geçmiş gibi dikkate alarak aylık veya geliri tespit eder.
+Maskeli:  Aylığın hesaplanmasında her bir Tarafın yetkili [ŞİRKET_ADI]          rilen sigortalılık sürelerini kendi mevzuatına göre geçmiş gibi dikkate alarak aylık veya geliri tespit eder.
+--------------------------------------------------
+ID: 119
+Orijinal: 2.2.
+Maskeli:  [YER_ADI].2.
+--------------------------------------------------
+ID: 120
+Orijinal: Yetkili Kurum, daha sonra 2.1.bendine göre nazari olarak tespit edilen aylık veya gelirin kendi mevzuatına göre geçen sigortalılık sürelerinin her iki Akit Taraf mevzuatına göre geçen sigortalı süreler toplamına olan oranına uygun kısmını hesaplayarak, ödenecek aylık veya gelir miktarını belirler.
+Maskeli:  [ŞİRKET_ADI]  daha sonra 2.1.bendine göre nazari olarak tespit edilen aylık veya gelirin kendi mevzuatına göre geçen sigortalılık sürelerinin her iki [ŞİRKET_ADI] mevzuatına göre geçen sigortalı süreler toplamına olan oranına uygun kısmını hesaplayarak, ödenecek aylık veya gelir miktarını belirler.
+--------------------------------------------------
+ID: 121
+Orijinal: 3.
+Maskeli:  3.
+--------------------------------------------------
+ID: 122
+Orijinal: Akit Tarafların mevzuatlarındaki aylığın azaltılması, durdurulması veya kesilmesi ile ilgili hükümler bu Sözleşmenin uygulanmasında nazara alınır.
+Maskeli:  [ŞİRKET_ADI]it Tarafların mevzuatlarındaki aylığın azaltılması, durdurulması veya kesilmesi ile ilgili hükümler bu Sözleşmenin uygulanmasında nazara alınır.
+--------------------------------------------------
+ID: 123
+Orijinal: V. KISIM İŞ KAZALARI VE MESLEK HASTALIKLARI Madde 18 İş Kazalarıyla İlgili Yardımlar 1.
+Maskeli:  [ŞİRKET_ADI]                               ADI]
+--------------------------------------------------
+ID: 124
+Orijinal: Akit Taraflardan her birinde uygulanan mevzuata göre iş kazaları sonucu bağlanan gelirlere yapılan zamlar veya ek olarak sağlanan tamamlayıcı yardımlar, bu kimselerin ikametgahlarını diğer Taraf ülkesine nakletmeleri halinde de devam eder.
+Maskeli:  [KİŞİ_ADI] her birinde uygulanan mevzuata göre iş kazaları sonucu bağlanan gelirlere yapılan zamlar veya ek olarak sağlanan tamamlayıcı yardımlar, bu kimselerin ikametgahlarını diğer Taraf ülkesine nakletmeleri halinde de devam eder.
+--------------------------------------------------
+ID: 125
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 126
+Orijinal: Taraflardan birinin ülkesinde bir iş kazasına uğrayan veya meslek hastalığına tutulan bir kimse geçici iş göremezlik devresinde sağlanan yardımlardan yararlanmaya başladıktan sonra ikametgahını diğer memlekete naklettiği zaman, hareketinden önce, kayıtlı bulunduğu Yetkili Kurumun iznini almak şartıyla, bu yardımlardan yararlanmaya devam eder.
+Maskeli:  Taraflardan birinin ülkesinde bir iş kazasına uğrayan veya meslek hastalığına tutulan bir kimse geçici iş göremezlik devresinde sağlanan yardımlardan yararlanmaya başladıktan sonra ikametgahını diğer memlekete naklettiği zaman, hareketinden önce, kayıtlı bulunduğu Yetkili [ŞİRKET_ADI]n iznini almak şartıyla, bu yardımlardan yararlanmaya devam eder.
+--------------------------------------------------
+ID: 127
+Orijinal: Verilen izin müddetinin sonunda iş kazası veya meslek hastalığına uğrayan kimsenin durumu gerektiriyorsa, bu izin hekim raporuna istinaden ve Yetkili Kurumun muvafakatı ile iyileşinceye kadar uzatılır.
+Maskeli:  Verilen izin müddetinin sonunda iş kazası veya meslek hastalığına uğrayan kimsenin durumu gerektiriyorsa, bu izin hekim raporuna istinaden ve [KİŞİ_ADI] muvafakatı ile iyileşinceye kadar uzatılır.
+--------------------------------------------------
+ID: 128
+Orijinal: 3.
+Maskeli:  3.
+--------------------------------------------------
+ID: 129
+Orijinal: Bir kimse ikametgahını diğer memlekete naklettikten sonra iş kazası veya meslek hastalığının nüksetmesi halinde, kaza tarihinden veya meslek hastalığının ilk teşhisinde kayıtlı bulunduğu Kurumun muvafakatını almak şartıyla, iş kazaları sigortasının sağlık tedavi yardımlarından yararlanmaya hak kazanır.
+Maskeli:  Bir kimse ikametgahını diğer memlekete naklettikten sonra iş kazası veya meslek hastalığının nüksetmesi halinde, kaza tarihinden veya meslek hastalığının ilk teşhisinde kayıtlı bulunduğu Kurumun muvafakatını almak şartıyla, iş [ŞİRKET_ADI]      ğlık tedavi yardımlarından yararlanmaya hak kazanır.
+--------------------------------------------------
+ID: 130
+Orijinal: 9 4.
+Maskeli:  [YER_ADI] 4.
+--------------------------------------------------
+ID: 131
+Orijinal: Bu maddenin 2 ve 3. bendinde öngörülen hallerde sağlık (tedavi) yardımları, bu yardımın kapsamı ve ifa şekilleri bakımından işçinin yeni ikametgahının bulunduğu memlekette uygulanan mevzuattaki hükümlere göre bu memleketin Kurumu tarafından sağlanır.
+Maskeli:  Bu maddenin 2 ve 3. bendinde öngörülen hallerde sağlık (tedavi) yardımları, bu yardımın kapsamı ve ifa şekilleri bakımından işçinin yeni ikametgahının bulunduğu memlekette uygulanan mevzuattaki hükümlere göre bu memleketin Kurumu tarafından sağlanır.
+--------------------------------------------------
+ID: 132
+Orijinal: Bu maddenin 2. bendinde öngörülen halde, para yardımları (günlük ödenekler) ilgilinin tabi olduğu mevzuata uygun olarak ve kayıtlı olduğu Kurum tarafından sağlanır.
+Maskeli:  Bu maddenin 2. bendinde öngörülen halde, para yardımları (günlük ödenekler) ilgilinin tabi olduğu mevzuata uygun olarak ve kayıtlı olduğu Kurum tarafından sağlanır.
+--------------------------------------------------
+ID: 133
+Orijinal: 5.
+Maskeli:  5.
+--------------------------------------------------
+ID: 134
+Orijinal: Bu maddenin 2 ve 3. bentlerinde öngörülen hallerde yapılan yardımların masrafı işçinin kayıtlı olduğu Kurumca ödenir.
+Maskeli:  Bu maddenin 2 ve 3. bentlerinde öngörülen hallerde yapılan yardımların masrafı işçinin kayıtlı olduğu Kurumca ödenir.
+--------------------------------------------------
+ID: 135
+Orijinal: İşçinin kayıtlı bulunduğu Kurum tarafından yeni ikametgahının bulunduğu memleketteki kuruma, sağlık yardımı masraflarının nasıl ödeneceği İdari Anlaşma ile tespit olunur.
+Maskeli:  İşçinin kayıtlı bulunduğu Kurum tarafından yeni ikametgahının bulunduğu memleketteki kuruma, sağlık yardımı masraflarının nasıl ödeneceği [KİŞİ_ADI] ile tespit olunur.
+--------------------------------------------------
+ID: 136
+Orijinal: 6.
+Maskeli:  6.
+--------------------------------------------------
+ID: 137
+Orijinal: Bu maddenin 2 ve 3. bentlerinde öngörülen hallerde, İdari Anlaşmaya bir liste eklenerek önemli sağlık yardımlarının sağlanması, acil haller hariç, işçinin kayıtlı bulunduğu Kurumun müsaadesine bağlıdır.
+Maskeli:  Bu maddenin 2 ve 3. bentlerinde öngörülen hallerde, [ŞİRKET_ADI] a bir liste eklenerek önemli sağlık yardımlarının sağlanması, acil haller hariç, işçinin kayıtlı bulunduğu Kurumun müsaadesine bağlıdır.
+--------------------------------------------------
+ID: 138
+Orijinal: 7.
+Maskeli:  7.
+--------------------------------------------------
+ID: 139
+Orijinal: Bir ülkenin mevzuatına göre, bir iş kazası veya meslek hastalığı sonucu meydana gelen daimi iş göremezlik derecesinin tayininde, diğer ülkenin mevzuatına göre evvelce vukua gelmiş olan iş kazaları ve meslek hastalıkları, o memleketin mevzuatına göre vukua gelmiş gibi nazara alınır.
+Maskeli:  Bir ülkenin mevzuatına göre, bir iş kazası veya meslek hastalığı sonucu meydana gelen daimi iş göremezlik derecesinin tayininde, diğer ülkenin mevzuatına göre evvelce vukua gelmiş olan iş kazaları ve meslek hastalıkları, o memleketin mevzuatına göre vukua gelmiş gibi nazara alınır.
+--------------------------------------------------
+ID: 140
+Orijinal: Madde 19 Meslek Hastalıklarıyla İlgili Yardımlar 1.
+Maskeli:  [MADDE_NO] [ŞİRKET_ADI]
+--------------------------------------------------
+ID: 141
+Orijinal: Meslek hastalığına uğrayan kimse, her iki memleketin ülkesi üzerinde söz konusu hastalığa sebep olabilecek bir işte çalışmış ise, sigortalının veya ölümünde hak sahiplerinin talep ettiği yardımlar, münhasıran söz konusu işin en son icra edildiği memleket ülkesindeki mevzuata göre, ilgili bu mevzuatın öngördüğü şartları yerine getirmiş olmak kaydı ile sağlanır.
+Maskeli:  Meslek hastalığına uğrayan kimse, her iki memleketin ülkesi üzerinde söz konusu hastalığa sebep olabilecek bir işte çalışmış ise, sigortalının veya ölümünde hak sahiplerinin talep ettiği yardımlar, münhasıran söz konusu işin en son icra edildiği memleket ülkesindeki mevzuata göre, ilgili bu mevzuatın öngördüğü şartları yerine getirmiş olmak kaydı ile sağlanır.
+--------------------------------------------------
+ID: 142
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 143
+Orijinal: Ülkelerden birinin mevzuatı meslek hastalığı yardımlarından yararlanmayı, hastalığın ilk defa kendi ülkesi üzerinde tıbben müşahade edilmiş olması şartına bağlıyorsa, hastalık ilk defa diğer Akit Taraf ülkesinde müşahade edildiği takdirde, bu şart yerine gelmiş sayılır.
+Maskeli:  Ülkelerden birinin mevzuatı meslek hastalığı yardımlarından yararlanmayı, hastalığın ilk defa kendi ülkesi üzerinde tıbben müşahade edilmiş olması şartına bağlıyorsa, hastalık ilk defa diğer [ŞİRKET_ADI] ülkesinde müşahade edildiği takdirde, bu şart yerine gelmiş sayılır.
+--------------------------------------------------
+ID: 144
+Orijinal: 3.
+Maskeli:  3.
+--------------------------------------------------
+ID: 145
+Orijinal: Ülkelerden birinin mevzuatına göre yardım yapılmış olan bir meslek hastalığının, hastanın diğer ülkede ikamet ettiği sırada ağırlaşması halinde, aşağıdaki kurallar uygulanır.
+Maskeli:  Ülkelerden birinin mevzuatına göre yardım yapılmış olan bir meslek hastalığının, hastanın diğer ülkede ikamet ettiği sırada ağırlaşması halinde, aşağıdaki kurallar uygulanır.
+--------------------------------------------------
+ID: 146
+Orijinal: 3.1.
+Maskeli:  3.1.
+--------------------------------------------------
+ID: 147
+Orijinal: İşçi, yeni ikamet ettiği ülkede meslek hastalığının meydana gelmesine veya ağırlaşmasına sebep olabilecek bir işte çalışmış ise, sigortalının ilk memlekette kayıtlı bulunduğu Kurum, ağırlaşmayı da hesaba katarak, kendi mevzuatına göre gerekli yardımları yapar.
+Maskeli:  İşçi, yeni ikamet ettiği ülkede meslek hastalığının meydana gelmesine veya ağırlaşmasına sebep olabilecek bir işte çalışmış ise, sigortalının ilk memlekette kayıtlı bulunduğu [ŞİRKET_ADI], ağırlaşmayı da hesaba katarak, kendi mevzuatına göre gerekli yardımları yapar.
+--------------------------------------------------
+ID: 148
+Orijinal: 3.2.
+Maskeli:  3.2.
+--------------------------------------------------
+ID: 149
+Orijinal: İşçi, yeni ikamet ettiği memlekette böyle bir işte çalışmış ise, ilk ülkedeki kayıtlı bulunan Kurum, ağırlaşmayı hesaba katmaksızın, kendi mevzuatına göre yapılacak yardımları üzerine alır; yeni ikametgahın bulunduğu ülkede kayıtlı bulunulan Kurum, işçiye, kendi mevzuatına göre tayin edilen ve ağırlaşmadan sonra ödenmesi gerekli yardım tutarı ile ağırlaşmadan önce hastalık kendi ülkesinde meydana gelmiş olsaydı ödeyeceği yardım tutarı arasındaki farka eşit bir ek yardım öder.
+Maskeli:  İşçi, yeni ikamet ettiği memlekette böyle bir işte çalışmış ise, ilk ülkedeki kayıtlı bulunan Kurum, ağırlaşmayı hesaba katmaksızın, kendi mevzuatına göre yapılacak yardımları üzerine alır; yeni ikametgahın bulunduğu ülkede kayıtlı bulunulan Kurum, işçiye, kendi mevzuatına göre tayin edilen ve ağırlaşmadan sonra ödenmesi gerekli yardım tutarı ile ağırlaşmadan önce hastalık kendi ülkesinde meydana gelmiş olsaydı ödeyeceği yardım tutarı arasındaki farka eşit bir ek yardım öder.
+--------------------------------------------------
+ID: 150
+Orijinal: VI.
+Maskeli:  VI.
+--------------------------------------------------
+ID: 151
+Orijinal: KISIM İDARİ VE TIBBİ KONTROL 10 Madde 20 1.
+Maskeli:  KISIM [ŞİRKET_ADI]          20 1.
+--------------------------------------------------
+ID: 152
+Orijinal: Bir Taraf ülkesinden malullük yada iş kazası, meslek hastalığından dolayı iş göremez durumunda olan ve diğer Taraf ülkesinde ikamet eden ve sosyal güvenlik haklarından yararlanmaları için maluliyet durumlarının tespiti gereken kimselerin idari ve tıbbi kontrolleri, Yetkili Kurumun talebi üzerine diğer Akit Taraf Yetkili Kurumunca yapılır.
+Maskeli:  Bir [ŞİRKET_ADI] ülkesinden malullük yada iş kazası, meslek hastalığından dolayı iş göremez durumunda olan ve diğer [ŞİRKET_ADI] ülkesinde ikamet eden ve sosyal güvenlik haklarından yararlanmaları için maluliyet durumlarının tespiti gereken kimselerin idari ve tıbbi kontrolleri, [KİŞİ_ADI] talebi üzerine diğer [ŞİRKET_ADI]
+--------------------------------------------------
+ID: 153
+Orijinal: Şu kadar ki, Yetkili Kurum, ilgiliyi ister ikamet ettiği ülkede isterse kendi ülkesinde seçeceği bir hekime muayene ettirme hakkını muhafaza eder.
+Maskeli:  Şu kadar ki, Yetkili [ŞİRKET_ADI], ilgiliyi ister ikamet ettiği ülkede isterse kendi ülkesinde seçeceği bir hekime muayene ettirme hakkını muhafaza eder.
+--------------------------------------------------
+ID: 154
+Orijinal: Bu durumda yol paraları ve ikamet masrafları talebi yapan Yetkili Kurumca karşılanır.
+Maskeli:  Bu durumda yol paraları ve ikamet masrafları talebi yapan [ŞİRKET_ADI] a karşılanır.
+--------------------------------------------------
+ID: 155
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 156
+Orijinal: Kontrol masrafları kontrolü talep eden Yetkili Kurumca İdari Anlaşmada belirlenen usul ve esaslara göre ödenir.
+Maskeli:  Kontrol masrafları kontrolü talep eden [ŞİRKET_ADI] a [KİŞİ_ADI] belirlenen usul ve esaslara göre ödenir.
+--------------------------------------------------
+ID: 157
+Orijinal: IV.
+Maskeli:  [KİŞİ_ADI].
+--------------------------------------------------
+ID: 158
+Orijinal: BÖLÜM ÇEŞİTLİ HÜKÜMLER Madde 21 İdari Düzenleme İki ülkenin Yetkili Makamları tarafından yapılacak bir genel İdari Anlaşma, bu Sözleşmenin uygulanması için ihtiyaç duyulan şartları ve özellikle, İdari Anlaşmaya açıkça atıfta bulunulan maddelerle ilgili şartları tespit edecektir.
+Maskeli:  BÖLÜM ÇEŞİTLİ HÜKÜMLER [MADDE_NO] İdari [ŞİRKET_ADI] İki ülkenin Yetkili [ŞİRKET_ADI]ları tarafından yapılacak bir [ŞİRKET_ADI]       İRKET_ADI]nin uygulanması için ihtiyaç duyulan şartları ve özellikle, İdari [ŞİRKET_ADI]ya açıkça atıfta bulunulan maddelerle ilgili şartları tespit edecektir.
+--------------------------------------------------
+ID: 159
+Orijinal: Bu İdari Anlaşmada iki ülkenin yetkili irtibat kurumları tespit olunacaktır.
+Maskeli:  [KİŞİ_ADI] Anlaşmada iki ülkenin yetkili irtibat kurumları tespit olunacaktır.
+--------------------------------------------------
+ID: 160
+Orijinal: Ayrıca, usul ve esasların uygulamaya konulması için bu genel İdari Anlaşmaya ve gereğinde bir Ek İdari Anlaşmaya lüzumlu görülecek ve müştereken tespit edilecek formülerler de eklenecektir.
+Maskeli:  Ayrıca, usul ve esasların uygulamaya konulması için bu [ŞİRKET_ADI]       ereğinde bir [ŞİRKET_ADI]    üzumlu görülecek ve müştereken tespit edilecek formülerler de eklenecektir.
+--------------------------------------------------
+ID: 161
+Orijinal: Madde 22 Bilgi Değişimi ve Karşılıklı Yardım 1.
+Maskeli:  [MADDE_NO] [ŞİRKET_ADI]     ılıklı [ŞİRKET_ADI] 1.
+--------------------------------------------------
+ID: 162
+Orijinal: Bu Sözleşmenin uygulanmasından sorumlu Yetkili Makam ve Kurumlar: 1.1.
+Maskeli:  [KİŞİ_ADI] uygulanmasından sorumlu [KİŞİ_ADI] ve Kurumlar: 1.1.
+--------------------------------------------------
+ID: 163
+Orijinal: Mevzuatlarının izin verdiği ölçüde, bu Sözleşmenin uygulanması için gerekli her türlü bilgiyi birbirlerine bildirirler; 1.2.
+Maskeli:  Mevzuatlarının izin verdiği ölçüde, bu Sözleşmenin uygulanması için gerekli her türlü bilgiyi birbirlerine bildirirler; 1.2.
+--------------------------------------------------
+ID: 164
+Orijinal: Bu Sözleşme veya bu Sözleşmenin uygulandığı mevzuat uyarınca her hangi bir yardımın ödenmesi veya bu yardıma hak kazanmanın tespiti ile ilgili olarak kendi mevzuatlarının uygulanması ile ilgiliymiş gibi, birbirlerine yardımcı olurlar; ve 1.3.
+Maskeli:  [ŞİRKET_ADI] veya bu [ŞİRKET_ADI]nin uygulandığı mevzuat uyarınca her hangi bir yardımın ödenmesi veya bu yardıma hak kazanmanın tespiti ile ilgili olarak kendi mevzuatlarının uygulanması ile ilgiliymiş gibi, birbirlerine yardımcı olurlar; ve 1.3.
+--------------------------------------------------
+ID: 165
+Orijinal: Mümkün olan en kısa zamanda, bu Sözleşmenin uygulanması için alınan tüm önlemleri veya Sözleşmenin uygulanmasını etkilemesi halinde, kendi mevzuatlarındaki değişiklikleri birbirlerine bildirirler.
+Maskeli:  Mümkün olan en kısa zamanda, bu Sözleşmenin uygulanması için alınan tüm önlemleri veya Sözleşmenin uygulanmasını etkilemesi halinde, kendi mevzuatlarındaki değişiklikleri birbirlerine bildirirler.
+--------------------------------------------------
+ID: 166
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 167
+Orijinal: Bu maddenin alt paragraf 1.2.fıkrasında işaret edilen yardım, belirli masraf türlerinin geri ödenmesi için 21.maddeye uygun olarak yapılan İdari Anlaşmada yer alan herhangi bir hüküm saklı kalmak kaydıyla, ücretten muaf olarak sağlanır.
+Maskeli:  Bu maddenin alt paragraf 1.2.fıkrasında işaret edilen yardım, belirli masraf türlerinin geri ödenmesi için 21.maddeye uygun olarak yapılan İdari [ŞİRKET_ADI]da yer alan herhangi bir hüküm saklı kalmak kaydıyla, ücretten muaf olarak sağlanır.
+--------------------------------------------------
+ID: 168
+Orijinal: Bir Tarafın Yetkili Kurumu diğer 11 Tarafın Yetkili Kurumundan ödemeyi istediğinde, birinci Kurum ikinci Kuruma, birinci Tarafın para birimini belirterek ödenecek miktarı bildirir.
+Maskeli:  [KİŞİ_ADI][ŞİRKET_ADI]     r 11 [KİŞİ_ADI] [ŞİRKET_ADI]ndan ödemeyi istediğinde, birinci Kurum ikinci Kuruma, birinci Tarafın para birimini belirterek ödenecek miktarı bildirir.
+--------------------------------------------------
+ID: 169
+Orijinal: Bunun üzerine, ikinci Kurum bu miktarı, birinci Tarafın para birimi ile birinci Kuruma öder.
+Maskeli:  Bunun üzerine, ikinci Kurum bu miktarı, birinci Tarafın para birimi ile birinci Kuruma öder.
+--------------------------------------------------
+ID: 170
+Orijinal: 3.
+Maskeli:  3.
+--------------------------------------------------
+ID: 171
+Orijinal: Bir Tarafın yasaları uyarınca açıklanması gerekmedikçe, bu Sözleşmeye göre bir Tarafça diğer Tarafa bir kimse hakkında gönderilen her hangi bir bilgi gizlidir ve sadece bu Sözleşmenin ve bu Sözleşmenin uygulandığı mevzuatın yürütülmesi amacıyla kullanılır.
+Maskeli:  Bir [ŞİRKET_ADI]ın yasaları uyarınca açıklanması gerekmedikçe, bu [ŞİRKET_ADI]ye göre bir Tarafça diğer Tarafa bir kimse hakkında gönderilen her hangi bir bilgi gizlidir ve sadece bu [ŞİRKET_ADI]nin ve bu [ŞİRKET_ADI]nin uygulandığı mevzuatın yürütülmesi amacıyla kullanılır.
+--------------------------------------------------
+ID: 172
+Orijinal: Madde 23 Vergi, Resim, Ücret ve Harçlardan Muafiyet veya İndirim 1.
+Maskeli:  [MADDE_NO] Vergi, Resim, Ücret ve [KİŞİ_ADI] veya İndirim 1.
+--------------------------------------------------
+ID: 173
+Orijinal: Bir Tarafın, mevzuatın uygulanması için gerekli her hangi bir belge veya dokümanın hazırlanması ile ilgili olarak o Tarafın mevzuatınca hükme bağlanmış bulunan vergiler, resim, konsolosluk ücretleri veya idari harçlardan muafiyet veya bunlarla ilgili her hangi bir indirim, diğer Taraf mevzuatının uygulanması ile ilgili gerekli belge ve dokümanları da kapsar.
+Maskeli:  [KİŞİ_ADI], mevzuatın uygulanması için gerekli her hangi bir belge veya dokümanın hazırlanması ile ilgili olarak o Tarafın mevzuatınca hükme bağlanmış bulunan vergiler, resim, konsolosluk ücretleri veya idari harçlardan muafiyet veya bunlarla ilgili her hangi bir indirim, [YER_ADI] [ŞİRKET_ADI] mevzuatının uygulanması ile ilgili gerekli belge ve dokümanları da kapsar.
+--------------------------------------------------
+ID: 174
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 175
+Orijinal: Sözleşmenin uygulanması için yapılması gerekli resmi türde her hangi bir belge, diplomatik veya konsolosluk yetkililerinin onayından veya benzer formalitelerden muaftır.
+Maskeli:  Sözleşmenin uygulanması için yapılması gerekli resmi türde her hangi bir belge, diplomatik veya konsolosluk yetkililerinin onayından veya benzer formalitelerden muaftır.
+--------------------------------------------------
+ID: 176
+Orijinal: Madde 24 Haberleşme Dili Bu Sözleşmenin uygulanması için Tarafların Yetkili Makamları ve Kurumları bir diğeri ile, iki Taraftan birinin resmi dili ile doğrudan haberleşirler.
+Maskeli:  [MADDE_NO] [KİŞİ_ADI] [KİŞİ_ADI] uygulanması için [KİŞİ_ADI] Makamları ve Kurumları bir diğeri ile, iki Taraftan birinin resmi dili ile doğrudan haberleşirler.
+--------------------------------------------------
+ID: 177
+Orijinal: Madde 25 Talep, Bildiri ve İtirazların Sunulması 1.
+Maskeli:  [MADDE_NO] Talep, Bildiri ve [KİŞİ_ADI] 1.
+--------------------------------------------------
+ID: 178
+Orijinal: Akit Taraflardan birinin mevzuatına göre, o Tarafın Yetkili Makam veya Kurumuna yasal süresi içinde yapılmış olan bir yardımın ödenmesi veya yardım hakkının belirlenmesine ilişkin talep, bildiri veya itiraz, diğer Tarafın Yetkili Makamına, Kurumuna sunulmuş gibi kabul edilir.
+Maskeli:  [KİŞİ_ADI] birinin mevzuatına göre, o [KİŞİ_ADI] [ŞİRKET_ADI] veya Kurumuna yasal süresi içinde yapılmış olan bir yardımın ödenmesi veya yardım hakkının belirlenmesine ilişkin talep, bildiri veya itiraz, diğer [KİŞİ_ADI] [ŞİRKET_ADI]ına, Kurumuna sunulmuş gibi kabul edilir.
+--------------------------------------------------
+ID: 179
+Orijinal: Aynı husus diğer konulara ilişkin dilekçeler ile beyannameler ve itirazlar içinde geçerlidir.
+Maskeli:  Aynı husus diğer konulara ilişkin dilekçeler ile beyannameler ve itirazlar içinde geçerlidir.
+--------------------------------------------------
+ID: 180
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 181
+Orijinal: Bu Sözleşmenin yürürlüğe girdiği tarihten sonra bir Taraf mevzuatı uyarınca yapılan yardım talebi, diğer Tarafın mevzuatı uyarınca muadil bir yardım için talep olarak kabul edilir.
+Maskeli:  Bu [ŞİRKET_ADI]nin yürürlüğe girdiği tarihten sonra bir [ŞİRKET_ADI] mevzuatı uyarınca yapılan yardım talebi, diğer Tarafın mevzuatı uyarınca muadil bir yardım için talep olarak kabul edilir.
+--------------------------------------------------
+ID: 182
+Orijinal: Şu kadar ki başvuru sahibinin: 2.1.
+Maskeli:  Şu kadar ki başvuru sahibinin: 2.1.
+--------------------------------------------------
+ID: 183
+Orijinal: Talebinin diğer Tarafın mevzuatı uyarınca da geçerli olduğunu dilekçesinde belirtmiş olması, 2.2.
+Maskeli:  Talebinin diğer Tarafın mevzuatı uyarınca da geçerli olduğunu dilekçesinde belirtmiş olması, 2.2.
+--------------------------------------------------
+ID: 184
+Orijinal: Veya diğer Tarafın mevzuatı uyarınca tamamlanmış kredilenebilir sürelere ilişkin bilgi ve belgeleri ibraz etmesi gereklidir.
+Maskeli:  Veya diğer Tarafın mevzuatı uyarınca tamamlanmış kredilenebilir sürelere ilişkin bilgi ve belgeleri ibraz etmesi gereklidir.
+--------------------------------------------------
+ID: 185
+Orijinal: Yukarıdaki hususlar müracaatçının dilekçesinde açık olarak yardım talebinin ertelenmesini istemesi halinde geçerli değildir.
+Maskeli:  Yukarıdaki hususlar müracaatçının dilekçesinde açık olarak yardım talebinin ertelenmesini istemesi halinde geçerli değildir.
+--------------------------------------------------
+ID: 186
+Orijinal: 12 3.
+Maskeli:  [YER_ADI] 3.
+--------------------------------------------------
+ID: 187
+Orijinal: 1 ve 2.bendin uygulandığı her hangi bir durumda, talep, bildiri veya itirazın sunulduğu Yetkili Makam veya Kurum, bunu gecikmeksizin diğer Tarafın Yetkili Makam veya Kurumuna iletir Madde 26 Yardımların Ödenmesi Bir Tarafın Yetkili Kurumu bu Sözleşmeye göre doğan yükümlülüklerini o Tarafın para birimi ile yerine getirebilir.
+Maskeli:  1 ve 2.bendin uygulandığı her hangi bir durumda, talep, bildiri veya itirazın sunulduğu [ŞİRKET_ADI] veya Kurum, bunu gecikmeksizin diğer [KİŞİ_ADI] [ŞİRKET_ADI] veya [ŞİRKET_ADI]na iletir [MADDE_NO] [KİŞİ_ADI] [ŞİRKET_ADI] Yetkili [ŞİRKET_ADI] bu Sözleşmeye göre doğan yükümlülüklerini o Tarafın para birimi ile yerine getirebilir.
+--------------------------------------------------
+ID: 188
+Orijinal: Madde 27 Anlaşmazlıkların Çözümü 1.
+Maskeli:  [MADDE_NO] [KİŞİ_ADI] 1.
+--------------------------------------------------
+ID: 189
+Orijinal: Akit Taraf Yetkili Makamları, Akit Taraflar arasında bu Sözleşmenin yorumu ve tatbiki nedeni ile çıkacak tüm anlaşmazlıkları müzakere yolu ile halletmeye çalışırlar.
+Maskeli:  [ŞİRKET_ADI]it [ŞİRKET_ADI] [KİŞİ_ADI], [KİŞİ_ADI] arasında bu Sözleşmenin yorumu ve tatbiki nedeni ile çıkacak tüm anlaşmazlıkları müzakere yolu ile halletmeye çalışırlar.
+--------------------------------------------------
+ID: 190
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 191
+Orijinal: Bir anlaşmazlığın bu şekilde altı ay içinde giderilmesi mümkün olmazsa, bu durumda anlaşmazlığın çözümü Akit Taraflardan birinin müracaatı üzerine aşağıdaki şekilde oluşturulacak olan bir hakem heyetine devredilir.
+Maskeli:  Bir anlaşmazlığın bu şekilde altı ay içinde giderilmesi mümkün olmazsa, bu durumda anlaşmazlığın çözümü [ŞİRKET_ADI]it [ŞİRKET_ADI]lardan birinin müracaatı üzerine aşağıdaki şekilde oluşturulacak olan bir hakem heyetine devredilir.
+--------------------------------------------------
+ID: 192
+Orijinal: 2.1.
+Maskeli:  2.1.
+--------------------------------------------------
+ID: 193
+Orijinal: Sözleşmeye Taraf olan her devlet, anlaşmazlığın hakem heyeti tarafından giderilmesi ile ilgili müracaatın eline geçmesinden itibaren bir ay içinde bir hakem tayin eder.
+Maskeli:  [KİŞİ_ADI] olan her devlet, anlaşmazlığın hakem heyeti tarafından giderilmesi ile ilgili müracaatın eline geçmesinden itibaren bir ay içinde bir hakem tayin eder.
+--------------------------------------------------
+ID: 194
+Orijinal: Bu şekilde tayin edilen iki hakem, hakemini son olarak atayan devletin bu atamayı bildirmesinden itibaren iki ay içinde üçüncü bir devletin uyruğundaki bir kişiyi üçüncü hakem olarak seçer.
+Maskeli:  Bu şekilde tayin edilen iki hakem, hakemini son olarak atayan devletin bu atamayı bildirmesinden itibaren iki ay içinde üçüncü bir devletin uyruğundaki bir kişiyi üçüncü hakem olarak seçer.
+--------------------------------------------------
+ID: 195
+Orijinal: 2.2.
+Maskeli:  [YER_ADI].2.
+--------------------------------------------------
+ID: 196
+Orijinal: Sözleşmeye Taraf olan devletlerden birinin tespit edilen süre içinde hakem tayin etmemesi durumunda, diğer devlet Avrupa İnsan Hakları Mahkemesinin Başkanına başvurarak, hakem tayin etmesini isteyebilir.
+Maskeli:  [KİŞİ_ADI] olan devletlerden birinin tespit edilen süre içinde hakem tayin etmemesi durumunda, diğer devlet [ŞİRKET_ADI]                  urarak, hakem tayin etmesini isteyebilir.
+--------------------------------------------------
+ID: 197
+Orijinal: Tayin edilen iki hakemin atanacak üçüncü hakemin seçimi konusunda mutabakata varamamaları halinde, aynı şekilde Avrupa İnsan Hakları Mahkemesine başvurabilir.
+Maskeli:  Tayin edilen iki hakemin atanacak üçüncü hakemin seçimi konusunda mutabakata varamamaları halinde, aynı şekilde [ŞİRKET_ADI]
+--------------------------------------------------
+ID: 198
+Orijinal: 2.3.
+Maskeli:  [YER_ADI].3.
+--------------------------------------------------
+ID: 199
+Orijinal: Avrupa İnsan Hakları Mahkemesinin Başkanının Sözleşmenin Tarafı olan devletlerden birinin uyruğunda olması halinde, bu madde ile kendisine verilen görevler mahkemenin başkan yardımcısına ya da aynı uyrukta olma durumunun söz konusu olmadığı en yüksek dereceli hakime devredilir.
+Maskeli:  [ŞİRKET_ADI]                  leşmenin Tarafı olan devletlerden birinin uyruğunda olması halinde, bu madde ile kendisine verilen görevler mahkemenin başkan yardımcısına ya da aynı uyrukta olma durumunun söz konusu olmadığı en yüksek dereceli hakime devredilir.
+--------------------------------------------------
+ID: 200
+Orijinal: 3.
+Maskeli:  3.
+--------------------------------------------------
+ID: 201
+Orijinal: Hakem heyeti oy çokluğu ile karar verir.
+Maskeli:  [ŞİRKET_ADI] oy çokluğu ile karar verir.
+--------------------------------------------------
+ID: 202
+Orijinal: Heyetin kararları her iki devlet için de bağlayıcı niteliktedir.
+Maskeli:  Heyetin kararları her iki devlet için de bağlayıcı niteliktedir.
+--------------------------------------------------
+ID: 203
+Orijinal: Sözleşmeye Taraf olan her devlet kendisi tarafından atanan hakemin masraflarını karşılar.
+Maskeli:  [KİŞİ_ADI] olan her devlet kendisi tarafından atanan hakemin masraflarını karşılar.
+--------------------------------------------------
+ID: 204
+Orijinal: Diğer masraflar Sözleşmeye Taraf olan devletlerce eşit oranda karşılanır.
+Maskeli:  Diğer masraflar [KİŞİ_ADI] olan devletlerce eşit oranda karşılanır.
+--------------------------------------------------
+ID: 205
+Orijinal: Hakem heyeti çalışma usullerini kendisi belirler.
+Maskeli:  [ŞİRKET_ADI] çalışma usullerini kendisi belirler.
+--------------------------------------------------
+ID: 206
+Orijinal: V.
+Maskeli:  [KİŞİ_ADI]
+--------------------------------------------------
+ID: 207
+Orijinal: BÖLÜM GEÇİCİ VE SON HÜKÜMLER 13 Madde 28 Geçici Hükümler 1.
+Maskeli:  BÖLÜM GEÇİCİ VE SON HÜKÜMLER 13 [MADDE_NO] [KİŞİ_ADI] 1.
+--------------------------------------------------
+ID: 208
+Orijinal: Bu Sözleşmenin yürürlüğe girdiği tarihten önce tamamlanmış her hangi bir sigortalılık süresi, bu Sözleşme uyarınca bir yardım hakkının tespitinde dikkate alınır.
+Maskeli:  Bu [ŞİRKET_ADI]nin yürürlüğe girdiği tarihten önce tamamlanmış her hangi bir sigortalılık süresi, bu [ŞİRKET_ADI] uyarınca bir yardım hakkının tespitinde dikkate alınır.
+--------------------------------------------------
+ID: 209
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 210
+Orijinal: Bu Sözleşmenin hiçbir hükmü, bu Sözleşmenin yürürlüğe girdiği tarihten önceki bir süre için bir yardım ödenmesi hakkını vermez.
+Maskeli:  [ŞİRKET_ADI]nin hiçbir hükmü, bu [ŞİRKET_ADI]nin yürürlüğe girdiği tarihten önceki bir süre için bir yardım ödenmesi hakkını vermez.
+--------------------------------------------------
+ID: 211
+Orijinal: 3.
+Maskeli:  3.
+--------------------------------------------------
+ID: 212
+Orijinal: 2. paragraf hükmüne tabi olmak üzere, bir toptan ödemeden başka, bir yardım, bu Sözleşmenin yürürlüğe girdiği tarihten önce vuku bulmuş olaylarla ilgili olarak bu Sözleşmenin yürürlüğe girdiği tarihten itibaren geçerli olmak üzere ödenir.
+Maskeli:  2. paragraf hükmüne tabi olmak üzere, bir toptan ödemeden başka, bir yardım, bu Sözleşmenin yürürlüğe girdiği tarihten önce vuku bulmuş olaylarla ilgili olarak bu Sözleşmenin yürürlüğe girdiği tarihten itibaren geçerli olmak üzere ödenir.
+--------------------------------------------------
+ID: 213
+Orijinal: Madde 29 Sözleşmenin Yürürlüğe Girmesi ve Süresi 1.
+Maskeli:  [MADDE_NO] [KİŞİ_ADI] Girmesi ve Süresi 1.
+--------------------------------------------------
+ID: 214
+Orijinal: Sözleşmenin yürürlüğe girmesi için Taraflardan her biri diğer Tarafa gerekli olan iç mevzuatın tamamlandığını bildirir.
+Maskeli:  Sözleşmenin yürürlüğe girmesi için Taraflardan her biri diğer Tarafa gerekli olan iç mevzuatın tamamlandığını bildirir.
+--------------------------------------------------
+ID: 215
+Orijinal: Sözleşme bilginin verildiği aydan sonraki takvim ayının birinci gününden başlayarak yürürlüğe girer.
+Maskeli:  Sözleşme bilginin verildiği aydan sonraki takvim ayının birinci gününden başlayarak yürürlüğe girer.
+--------------------------------------------------
+ID: 216
+Orijinal: 2.
+Maskeli:  2.
+--------------------------------------------------
+ID: 217
+Orijinal: Taraflardan birinin teşebbüsü ile Sözleşme feshedilebilir.
+Maskeli:  Taraflardan birinin teşebbüsü ile Sözleşme feshedilebilir.
+--------------------------------------------------
+ID: 218
+Orijinal: Fesih, bildiri tarihini izleyen 6. ayın sonunda geçerlilik kazanır.
+Maskeli:  Fesih, bildiri tarihini izleyen 6. ayın sonunda geçerlilik kazanır.
+--------------------------------------------------
+ID: 219
+Orijinal: 3.
+Maskeli:  3.
+--------------------------------------------------
+ID: 220
+Orijinal: Sözleşme ihlal edildiği takdirde, bu Sözleşme hükümlerine göre elde edilen haklar kendi geçerliliğini kaybetmez ve Sözleşmeye göre elde edilmekte olan haklar hakkında karar alınmasıyla ilgili görüşmelere başlanılır.
+Maskeli:  Sözleşme ihlal edildiği takdirde, bu [ŞİRKET_ADI] hükümlerine göre elde edilen haklar kendi geçerliliğini kaybetmez ve Sözleşmeye göre elde edilmekte olan haklar hakkında karar alınmasıyla ilgili görüşmelere başlanılır.
+--------------------------------------------------
+ID: 221
+Orijinal: Bu konuda anlaşmaya varılamadığı takdirde, ihtilaflar 27.
+Maskeli:  Bu konuda anlaşmaya varılamadığı takdirde, ihtilaflar 27.
+--------------------------------------------------
+ID: 222
+Orijinal: maddeye göre çözülür.
+Maskeli:  maddeye göre çözülür.
+--------------------------------------------------
+ID: 223
+Orijinal: Bu Sözleşme 15 Temmuz 1998 tarihinde Tirana' da Arnavutça, Türkçe ve İngilizce dillerinde her üç metin de aynı derecede geçerli olmak üzere ikişer orijinal nüsha olarak düzenlenmiş ve imzalanmıştır.
+Maskeli:  [KİŞİ_ADI] [TARİH] tarihinde [YER_ADI]' da [ŞİRKET_ADI]ça, [ŞİRKET_ADI] ve [ŞİRKET_ADI] dillerinde her üç metin de aynı derecede geçerli olmak üzere ikişer orijinal nüsha olarak düzenlenmiş ve imzalanmıştır.
+--------------------------------------------------
+ID: 224
+Orijinal: Yorum farklılıklarında İngilizce metin esas alınır.
+Maskeli:  Yorum farklılıklarında [ŞİRKET_ADI] metin esas alınır.
+--------------------------------------------------
+ID: 225
+Orijinal: TÜRKİYE CUMHURİYETİ ARNAVUTLUK CUMHURİYETİ HÜKÜMETİ ADINA HÜKÜMETİ ADINA Prof. Dr. Nami ÇAĞAN Anastas ANGJELİ Çalışma ve Sosyal Güvenlik Bakanı Çalışma ve Sosyal İşler Bakanı 14
+Maskeli:  [ŞİRKET_ADI]                              Tİ ADINA [UNVAN]. [KİŞİ_ADI]AN [ŞİRKET_ADI][KİŞİ_ADI] Çalışma [ŞİRKET_ADI]      ı [ŞİRKET_ADI]
+--------------------------------------------------

@@ -11,17 +11,19 @@ try:
 except nltk.downloader.DownloadError:
     nltk.download('punkt')
 
+# -------------------------------------------------------------------
 # --- KONFİGÜRASYON ---
-PDF_FILE = "2-turkiye-arnavutluk.doc" # Lütfen burayı kendi PDF adınızla değiştirin!
+# -------------------------------------------------------------------
+PDF_FILE = "2-turkiye-arnavutluk.pdf" # İşlenecek PDF dosyası
 NER_MODEL_NAME = "savasy/bert-base-turkish-ner-cased" 
+OUTPUT_FILE = "masked_document_output.txt" # Çıktıların kaydedileceği dosya
 # --------------------
 
-# Kendi Regex Kurallarınız (Kullanıcı tarafından sağlanan MASK_RULES listesi)
+# Kendi Regex Kurallarınız (MASK_RULES)
+# Bu liste, önceki ile aynıdır.
 MASK_RULES = [
-
     # ------------------------------------------------------------
     # ŞİRKET / KURUM ADI
-    # NOT: Bu kural, NER modeli ORG etiketini kaçırırsa devreye girer.
     # ------------------------------------------------------------
     {
         "name": "sirket_adi",
@@ -35,7 +37,6 @@ MASK_RULES = [
 
     # ------------------------------------------------------------
     # KİŞİ ADI (Basit)
-    # NOT: Bu kural, NER modeli PER etiketini kaçırırsa devreye girer.
     # ------------------------------------------------------------
     {
         "name": "kisi_adi",
@@ -46,7 +47,7 @@ MASK_RULES = [
     },
 
     # ------------------------------------------------------------
-    # TARAF ADI (NER'in yakalayamayacağı özelleşmiş kodlar)
+    # TARAF ADI
     # ------------------------------------------------------------
     {
         "name": "taraf_adi",
@@ -56,7 +57,6 @@ MASK_RULES = [
 
     # ------------------------------------------------------------
     # ŞEHİR ADI (Basit)
-    # NOT: NER modeli LOC etiketini kaçırırsa devreye girer.
     # ------------------------------------------------------------
     {
         "name": "yer_adi",
@@ -68,7 +68,7 @@ MASK_RULES = [
     },
 
     # ------------------------------------------------------------
-    # ADRES BİLGİSİ (NER'in zorlandığı uzun ve yapısal bilgiler)
+    # ADRES BİLGİSİ
     # ------------------------------------------------------------
     {
         "name": "adres_satiri",
@@ -87,7 +87,7 @@ MASK_RULES = [
     },
 
     # ------------------------------------------------------------
-    # TARİH (Sayısal Format, NER'den bağımsız olarak güçlü olmalı)
+    # TARİH (Sayısal Format)
     # ------------------------------------------------------------
     {
         "name": "tarih_sayisal",
@@ -113,7 +113,7 @@ MASK_RULES = [
     },
 
     # ------------------------------------------------------------
-    # SÜRE (NER tarafından yakalanması zor, sayısal/yapısal veri)
+    # SÜRE
     # ------------------------------------------------------------
     {
         "name": "sure",
@@ -139,7 +139,7 @@ MASK_RULES = [
     },
 
     # ------------------------------------------------------------
-    # PARA / TUTAR (Sayısal/Yapısal veri)
+    # PARA / TUTAR
     # ------------------------------------------------------------
     {
         "name": "tutar",
@@ -158,7 +158,7 @@ MASK_RULES = [
     },
 
     # ------------------------------------------------------------
-    # BANKA / KİMLİK / İLETİŞİM BİLGİSİ (Hassas sayısal veriler)
+    # BANKA / KİMLİK / İLETİŞİM BİLGİSİ
     # ------------------------------------------------------------
     {
         "name": "iban",
@@ -252,7 +252,6 @@ NER_MAPPING = {
     "PER": "[KİŞİ_ADI]",      # Person (Kişi Adı)
     "LOC": "[YER_ADI]",       # Location (Yer Adı)
     "ORG": "[ŞİRKET_ADI]",    # Organization (Kurum Adı)
-    # Diğer etiketler (MISC/DATE) sadece çok gerekirse eklenebilir.
 }
 
 def load_ner_pipeline(model_name):
@@ -270,7 +269,6 @@ def ner_maskeleme_islemi(text, ner_pipeline):
     """NER modelini kullanarak metni maskeler."""
     results = ner_pipeline(text)
     
-    # Maskeleme yapılırken indekslerin kaymaması için listeye çevirilir.
     masked_text = list(text)
     
     for entity in reversed(results):
@@ -292,9 +290,6 @@ def ner_maskeleme_islemi(text, ner_pipeline):
 def regex_maskeleme_islemi(text, rules=MASK_RULES):
     """Sizin Regex kurallarınızı kullanarak maskeler."""
     for rule in rules:
-        # NOTE: re.sub ikinci parametrede bir string yerine bir fonksiyon bekleyebilir
-        # ancak sizin replacementlarınız basit string olduğu için sub kullanıldı.
-        # Adres/Vergi No gibi grupları koruyan Regex'ler için r"\1[MASKE]" formatını kullanırız.
         text = rule["pattern"].sub(rule["replacement"], text)
     return text
 
@@ -304,6 +299,7 @@ def pdf_metin_cikar(pdf_path):
     text = ""
     for page in reader.pages:
         text += page.extract_text() + "\n"
+    # Çoklu boşluk ve yeni satırları temizleme
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
@@ -343,41 +339,32 @@ def on_isleme_ve_maskeleme(pdf_path):
 
 if __name__ == "__main__":
     try:
+        # 1. PDF dosyasından metni al, cümlelere ayır ve maskele.
         results = on_isleme_ve_maskeleme(PDF_FILE)
         
-        # Sadece KULLANIM ÖRNEĞİ metnini maskeleyip gösterme (Test amaçlı)
-        print("\n--- TEST: KULLANICININ VERDİĞİ ÖRNEK METİN ÜZERİNDE MASKELENMİŞ ÇIKTI ---")
-        
-        sample_text = """
-        İşbu Taşeronluk Sözleşmesi ABC Lojistik A.Ş. ile Taraf A arasında
-        01.01.2023 tarihinde İstanbul'da imzalanmıştır.
-        Adres: Cumhuriyet Mah. 15. Sok. No: 12 Bursa
-        Vergi No: 1234567890, T.C. No: 12345678900
-        Telefon: +90 532 000 00 00, E-posta: test@example.com
-        IBAN: TR12 0001 2009 1234 0000 0012 34
-        Proj. No: 2023-001, PO-12874
-        6 ay süreyle geçerlidir. Madde 5’e göre fesih mümkündür.
-        Genel Müdür Ahmet Yılmaz imzalayacaktır.
-        Ek-1 Teslimat Planı ekte sunulmuştur.
-        Türk Borçlar Kanunu hükümleri uygulanır. Av. Canan Çelik.
-        """
-        
-        ner_pipeline_test = load_ner_pipeline(NER_MODEL_NAME)
-        
-        # Cümlelere ayırmadan tüm metni maskele
-        ner_masked_test = ner_maskeleme_islemi(sample_text, ner_pipeline_test)
-        final_masked_test = regex_maskeleme_islemi(ner_masked_test)
-        
-        print("\nMASKELENMİŞ METİN:")
-        print(final_masked_test)
-        
-        print("\n--- PDF ÇIKTI ÖRNEKLERİ ---")
-        # İlk 3 cümlenin orijinal ve maskelenmiş halini göster
-        for item in results[:3]:
-            print(f"\n[Cümle {item['id']}]")
-            print(f"Orijinal: {item['orjinal_cumle']}")
-            print(f"Maskeli:  {item['maskelenmis_cumle']}")
+        # -------------------------------------------------------------------
+        # 4. AŞAMA: Dosyaya Kayıt
+        # -------------------------------------------------------------------
 
+        print(f"\n[KAYIT AŞAMASI] {len(results)} cümle '{OUTPUT_FILE}' dosyasına kaydediliyor...")
+        
+        # 2. PDF Çıktılarını Dosyaya Kaydetme
+        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+            for item in results:
+                # Dosyada okunması kolay, temiz bir format kullanıldı
+                f.write(f"ID: {item['id']}\n")
+                f.write(f"Orijinal: {item['orjinal_cumle']}\n")
+                f.write(f"Maskeli:  {item['maskelenmis_cumle']}\n")
+                f.write("-" * 50 + "\n")
+
+        print(f"\n✅ KAYIT BAŞARILI! Tüm maskelenmiş çıktılar '{OUTPUT_FILE}' dosyasında.")
+        
+        # Opsiyonel: Kontrol için ilk maskelenmiş cümleyi terminalde gösterelim
+        if len(results) > 0:
+            print(f"\n--- İLK CÜMLE ÖRNEĞİ (PDF Çıktısı) ---")
+            print(f"Maskeli: {results[0]['maskelenmis_cumle']}")
+            print("---------------------------------------")
+            
     except FileNotFoundError:
         print(f"\n🚨 HATA: {PDF_FILE} dosyası bulunamadı. Lütfen dosyanın adını ve yolunu kontrol edin.")
     except Exception as e:
