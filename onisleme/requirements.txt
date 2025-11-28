@@ -1,0 +1,11 @@
+# PDF İşleme
+pymupdf
+
+# Veri İşleme
+pandas
+
+# Doğal Dil İşleme (Sürüm sabitlemek Mac'te önemlidir)
+spacy==3.7.2
+
+# Türkçe Dil Modeli (HuggingFace'ten doğrudan kurulum linki)
+https://huggingface.co/turkish-nlp-suite/tr_core_news_lg/resolve/main/tr_core_news_lg-1.0-py3-none-any.whl
