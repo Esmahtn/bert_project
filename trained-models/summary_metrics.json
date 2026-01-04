@@ -1,0 +1,32 @@
+[
+    {
+        "run": 1,
+        "accuracy": 0.8876404494382022,
+        "f1": 0.8866955818904181,
+        "model_path": "./trained-models/run-1/final-model"
+    },
+    {
+        "run": 2,
+        "accuracy": 0.8876404494382022,
+        "f1": 0.8872574055158325,
+        "model_path": "./trained-models/run-2/final-model"
+    },
+    {
+        "run": 3,
+        "accuracy": 0.8426966292134831,
+        "f1": 0.8419702644421745,
+        "model_path": "./trained-models/run-3/final-model"
+    },
+    {
+        "run": 4,
+        "accuracy": 0.8651685393258427,
+        "f1": 0.8688295552761846,
+        "model_path": "./trained-models/run-4/final-model"
+    },
+    {
+        "run": 5,
+        "accuracy": 0.8876404494382022,
+        "f1": 0.8866399348369608,
+        "model_path": "./trained-models/run-5/final-model"
+    }
+]

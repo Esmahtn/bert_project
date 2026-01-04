@@ -1,95 +1,232 @@
-from datasets import load_dataset
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trainer, TrainingArguments, DataCollatorWithPadding
+# =========================================================
+# LEGAL TURKISH BERT – 5 RUN FULL TRAINING PIPELINE
+# =========================================================
+
+import os
+import json
 import torch
-import evaluate
 import numpy as np
+from datasets import load_dataset
+from transformers import (
+    AutoTokenizer,
+    AutoModelForSequenceClassification,
+    Trainer,
+    TrainingArguments,
+    DataCollatorWithPadding
+)
+import evaluate
+from sklearn.metrics import confusion_matrix, classification_report
 
-# ⚠️ ÖN KOŞULLAR:
-# 'dataset-v1-train.csv' ve 'datase-v1-test.csv' dosyaları bu kod ile aynı klasörde olmalıdır.
-# Gerekli kütüphaneler (transformers, datasets, evaluate, numpy) yüklü olmalıdır.
-
-# 1️⃣ Veri Yükleme
-files = {
-    "train": "dataset-v1-train.csv", 
-    "test": "datase-v1-test.csv"  # Test dosyasının typo'su korundu.
+# =========================================================
+# 1️⃣ DOSYA YOLLARI
+# =========================================================
+FILES = {
+    "train": "dataset-v1-train.csv",
+    "test": "datase-v1-test.csv"   # typo bilinçli korunuyor
 }
-dataset = load_dataset("csv", data_files=files)
 
-# 2️⃣ Tokenizer (Türkçe Legal BERT)
-model_name = "msbayindir/legal-turkish-bert-base-cased" 
-tokenizer = AutoTokenizer.from_pretrained(model_name)
+BASE_MODEL_NAME = "msbayindir/legal-turkish-bert-base-cased"
+BASE_OUTPUT_DIR = "./trained-models"
+NUM_RUNS = 5
+
+os.makedirs(BASE_OUTPUT_DIR, exist_ok=True)
+
+# =========================================================
+# 2️⃣ DATASET
+# =========================================================
+dataset = load_dataset("csv", data_files=FILES)
+
+# =========================================================
+# 3️⃣ TOKENIZER
+# =========================================================
+tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL_NAME)
 
 def preprocess_function(examples):
-    # Metinleri tokenize et, max uzunluk 256
-    return tokenizer(examples["text"], truncation=True, max_length=256)
+    return tokenizer(
+        examples["text"],
+        truncation=True,
+        max_length=256
+    )
 
 tokenized_datasets = dataset.map(preprocess_function, batched=True)
 
-# 3️⃣ Model ve Etiket Haritası (etiket_id.txt'ye göre)
+# =========================================================
+# 4️⃣ LABEL MAP
+# =========================================================
 id2label = {0: "YUKSEK_RISK", 1: "ORTA_RISK", 2: "RISKSIZ"}
-label2id = {"YUKSEK_RISK": 0, "ORTA_RISK": 1, "RISKSIZ": 2}
+label2id = {v: k for k, v in id2label.items()}
 
-model = AutoModelForSequenceClassification.from_pretrained(
-    model_name,
-    num_labels=3,
-    id2label=id2label,
-    label2id=label2id
+# =========================================================
+# 5️⃣ DEVICE
+# =========================================================
+device = (
+    "cuda" if torch.cuda.is_available()
+    else "mps" if torch.backends.mps.is_available()
+    else "cpu"
 )
 
-# Cihaz Ayarı
-device = "cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu")
-model.to(device)
+print(f"🖥️ Kullanılan cihaz: {device.upper()}")
 
-# 4️⃣ Metrikler
-acc = evaluate.load("accuracy")
-f1 = evaluate.load("f1")
+# =========================================================
+# 6️⃣ METRICS
+# =========================================================
+accuracy_metric = evaluate.load("accuracy")
+f1_metric = evaluate.load("f1")
 
 def compute_metrics(eval_pred):
     logits, labels = eval_pred
     preds = np.argmax(logits, axis=1)
-    accuracy = acc.compute(predictions=preds, references=labels)["accuracy"]
-    # F1 skoru, sınıfların dengesizliğinden etkilenmemesi için "weighted" kullanılıyor.
-    f1w = f1.compute(predictions=preds, references=labels, average="weighted")["f1"]
-    return {"accuracy": accuracy, "f1": f1w}
 
-# 5️⃣ Eğitim Ayarları
-args = TrainingArguments(
-    output_dir="./results-legal-bert",
-    num_train_epochs=10,              # Güvenli üst limit. En iyi model korunacaktır.
-    per_device_train_batch_size=16,   # Base model için yüksek batch size
-    per_device_eval_batch_size=16,
-    gradient_accumulation_steps=1,
-    learning_rate=3e-5,               
-    weight_decay=0.01,
-    evaluation_strategy="epoch",      
-    save_strategy="epoch",
-    load_best_model_at_end=True,      # Overfitting riskine karşı en iyi modeli otomatik yükler
-    metric_for_best_model="f1",
-    greater_is_better=True,
-    logging_steps=10,
-    fp16=torch.cuda.is_available(),   
-    logging_dir="./logs",
-    report_to=["tensorboard"]
+    acc = accuracy_metric.compute(
+        predictions=preds,
+        references=labels
+    )["accuracy"]
+
+    f1 = f1_metric.compute(
+        predictions=preds,
+        references=labels,
+        average="weighted"
+    )["f1"]
+
+    return {"accuracy": acc, "f1": f1}
+
+# =========================================================
+# 7️⃣ DATA COLLATOR
+# =========================================================
+collator = DataCollatorWithPadding(tokenizer)
+
+# =========================================================
+# 8️⃣ 5 RUN TRAINING
+# =========================================================
+all_run_metrics = []
+
+for run_id in range(1, NUM_RUNS + 1):
+    print(f"\n🚀 RUN {run_id} BAŞLIYOR\n")
+
+    run_dir = f"{BASE_OUTPUT_DIR}/run-{run_id}"
+    final_model_dir = f"{run_dir}/final-model"
+
+    args = TrainingArguments(
+        output_dir=run_dir,
+        num_train_epochs=10,
+        per_device_train_batch_size=16,
+        per_device_eval_batch_size=16,
+        learning_rate=3e-5,
+        weight_decay=0.01,
+        evaluation_strategy="epoch",
+        save_strategy="epoch",
+        load_best_model_at_end=True,
+        metric_for_best_model="f1",
+        greater_is_better=True,
+        fp16=torch.cuda.is_available(),
+        seed=42 + run_id,
+        logging_dir=f"{run_dir}/logs",
+        report_to=["tensorboard"]
+    )
+
+    model = AutoModelForSequenceClassification.from_pretrained(
+        BASE_MODEL_NAME,
+        num_labels=3,
+        id2label=id2label,
+        label2id=label2id
+    ).to(device)
+
+    trainer = Trainer(
+        model=model,
+        args=args,
+        train_dataset=tokenized_datasets["train"],
+        eval_dataset=tokenized_datasets["test"],
+        tokenizer=tokenizer,
+        data_collator=collator,
+        compute_metrics=compute_metrics
+    )
+
+    trainer.train()
+    eval_metrics = trainer.evaluate()
+
+    trainer.save_model(final_model_dir)
+    tokenizer.save_pretrained(final_model_dir)
+
+    all_run_metrics.append({
+        "run": run_id,
+        "accuracy": eval_metrics["eval_accuracy"],
+        "f1": eval_metrics["eval_f1"],
+        "model_path": final_model_dir
+    })
+
+    print(f"✅ RUN {run_id} TAMAMLANDI")
+
+# =========================================================
+# 9️⃣ METRICS KAYDET
+# =========================================================
+summary_path = f"{BASE_OUTPUT_DIR}/summary_metrics.json"
+with open(summary_path, "w", encoding="utf-8") as f:
+    json.dump(all_run_metrics, f, indent=4, ensure_ascii=False)
+
+print(f"\n📁 Metrics kaydedildi → {summary_path}")
+
+# =========================================================
+# 🔟 EN İYİ MODEL SEÇ
+# =========================================================
+best_run = max(all_run_metrics, key=lambda x: x["f1"])
+BEST_MODEL_PATH = best_run["model_path"]
+
+print("\n🏆 EN İYİ MODEL")
+print(best_run)
+
+# =========================================================
+# 1️⃣1️⃣ CONFUSION MATRIX & CLASS REPORT
+# =========================================================
+best_model = AutoModelForSequenceClassification.from_pretrained(
+    BEST_MODEL_PATH
+).to(device)
+
+trainer.model = best_model
+preds = trainer.predict(tokenized_datasets["test"])
+
+y_true = preds.label_ids
+y_pred = np.argmax(preds.predictions, axis=1)
+
+print("\n📊 CONFUSION MATRIX (BEST MODEL)")
+print(confusion_matrix(y_true, y_pred))
+
+print("\n📄 CLASSIFICATION REPORT (BEST MODEL)")
+print(classification_report(
+    y_true,
+    y_pred,
+    target_names=["YUKSEK_RISK", "ORTA_RISK", "RISKSIZ"]
+))
+
+# =========================================================
+# 1️⃣2️⃣ ENSEMBLE (5 MODEL – MAJORITY VOTE)
+# =========================================================
+all_predictions = []
+
+for run in all_run_metrics:
+    model = AutoModelForSequenceClassification.from_pretrained(
+        run["model_path"]
+    ).to(device)
+
+    trainer.model = model
+    p = trainer.predict(tokenized_datasets["test"]).predictions
+    all_predictions.append(np.argmax(p, axis=1))
+
+all_predictions = np.stack(all_predictions)  # (5, N)
+
+ensemble_preds = np.apply_along_axis(
+    lambda x: np.bincount(x).argmax(),
+    axis=0,
+    arr=all_predictions
 )
 
-collator = DataCollatorWithPadding(tokenizer=tokenizer)
+print("\n🧠 ENSEMBLE CONFUSION MATRIX")
+print(confusion_matrix(y_true, ensemble_preds))
 
-trainer = Trainer(
-    model=model,
-    args=args,
-    train_dataset=tokenized_datasets["train"],
-    eval_dataset=tokenized_datasets["test"],
-    tokenizer=tokenizer,
-    data_collator=collator,
-    compute_metrics=compute_metrics
-)
+print("\n🧠 ENSEMBLE CLASSIFICATION REPORT")
+print(classification_report(
+    y_true,
+    ensemble_preds,
+    target_names=["YUKSEK_RISK", "ORTA_RISK", "RISKSIZ"]
+))
 
-print(f"🚀 Eğitim başlıyor: {model_name}. Cihaz: {device.upper()}")
-trainer.train()
-
-# 6️⃣ Modeli Kaydet
-save_path = "./final-legal-bert-risk-model"
-trainer.save_model(save_path)
-tokenizer.save_pretrained(save_path)
-
-print(f"✅ Eğitim tamamlandı! Model '{save_path}' klasörüne kaydedildi.")
+print("\n✅ TÜM PIPELINE TAMAMLANDI")
